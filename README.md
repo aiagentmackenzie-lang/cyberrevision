@@ -1,101 +1,58 @@
 # CyberRevision
 
-A clean, fast revision tool for cybersecurity education. Built to help anyone in the field—or anyone looking to enter it—study and retain critical security concepts.
+A no-nonsense revision tool for cybersecurity. Whether you're studying for a cert, switching careers, or just want to solidify your fundamentals, this gets the job done without getting in your way.
 
-## What This Is
+## Why this exists
 
-CyberRevision is a static, client-side revision site that organizes cybersecurity curriculum into an easy-to-navigate format. No signups, no tracking, no distractions. Just content.
+I needed a fast, distraction-free way to revise cybersecurity material. Everything out there was either bloated with sign-up walls and tracking, or buried inside some LMS I didn't want to deal with. So I built this instead.
 
-## Who It's For
+It's a static site. No accounts. No analytics. No build step. Open it in a browser and start studying.
 
-- **Students** preparing for cybersecurity certifications
-- **Professionals** brushing up on fundamentals
-- **Career switchers** exploring the security field
-- **Self-learners** building knowledge systematically
+## Who it's for
 
-## Curriculum Coverage
+Anyone learning cybersecurity: cert students, working professionals brushing up on basics, career switchers getting their feet wet, or self-taught folks who just want a clean way to work through the material systematically.
 
-The site covers **8 courses** and **25 modules** spanning the full security lifecycle:
+## What it covers
 
-### 1. Foundations of Cybersecurity
-- Introduction to Cybersecurity
-- Security Lifecycle
-- Security Frameworks & Controls
+8 courses, 25 modules, covering the full security lifecycle:
 
-### 2. Play It Safe: Manage Security Risks
-- Security Frameworks
-- Risk Management
-- Security Controls
+**Foundations of Cybersecurity.** Intro concepts, the security lifecycle, frameworks and controls.
 
-### 3. Connect and Protect: Networks & Network Security
-- Network Fundamentals
-- Network Protocols
-- Network Security
+**Play It Safe: Manage Security Risks.** Deeper dive into frameworks, risk management, and security controls.
 
-### 4. Tools of the Trade: Linux & SQL
-- Linux Fundamentals
-- Linux Security
-- SQL for Security
+**Connect and Protect: Networks & Network Security.** Network fundamentals, protocols, and how to secure them.
 
-### 5. Assets, Threats, and Vulnerabilities
-- Asset Management
-- Threat Landscape
-- Vulnerability Management
+**Tools of the Trade: Linux & SQL.** Linux basics and security, plus SQL for security work.
 
-### 6. Sound the Alarm: Detection & Response
-- Detection Systems
-- Incident Response
-- Forensics & Investigation
+**Assets, Threats, and Vulnerabilities.** Asset management, the threat landscape, vulnerability management.
 
-### 7. Automate Cybersecurity Tasks with Python
-- Python Fundamentals
-- Security Scripting
-- Automation & Orchestration
+**Sound the Alarm: Detection & Response.** Detection systems, incident response, forensics and investigation.
 
-### 8. Put It to Work: Prepare for Cybersecurity Jobs
-- Job Search Strategy
-- Resume & Portfolio
-- Interview Prep
-- Continuous Learning
+**Automate Cybersecurity Tasks with Python.** Python fundamentals, writing security scripts, automation and orchestration.
 
-## Technical Stack
+**Put It to Work: Prepare for Cybersecurity Jobs.** Job search strategy, resume and portfolio building, interview prep, and how to keep learning after you land the role.
 
-- **HTML5** semantic structure
-- **Vanilla CSS** (modular: main, nav, content styles)
-- **Vanilla JavaScript** (ES modules): router, navigation, markdown renderer
-- **Marked.js** for Markdown parsing
-- **DOMPurify** for sanitization
-- **Inter + JetBrains Mono** fonts via Google Fonts
+## Tech stack
 
-## Design
+Plain HTML5, vanilla CSS (split into modular files for nav, content, and main styles), and vanilla JavaScript using ES modules for routing, navigation, and markdown rendering. Marked.js handles the Markdown parsing, DOMPurify sanitizes it, and the fonts are Inter + JetBrains Mono pulled from Google Fonts.
 
-- Dark theme optimized for long study sessions
-- Split-pane layout: persistent navigation + content area
-- Hash-based routing for direct linking to modules
-- Responsive grid that adapts to screen size
-- Progress tracking (visited modules counter)
+No frameworks. No bundlers. Nothing to install.
 
-## Usage
+## Design decisions
 
-1. Clone or download the repository
-2. Open `index.html` in any modern browser
-3. Navigate courses via the sidebar
-4. Track your progress as you move through modules
+Dark theme, because if you're going to stare at study material for hours, your eyes shouldn't pay the price. The layout is a split-pane setup with persistent navigation on the left and content on the right. Routing is hash-based so you can link directly to any module. The grid is responsive, and there's a simple visited-modules counter so you can see where you've been.
 
-No build step. No dependencies to install. Works offline once loaded.
+## Getting started
 
-## Philosophy
+Clone the repo (or just download it), open `index.html` in any modern browser, and start navigating through the sidebar. That's it. Works offline once loaded.
 
-Study tools should get out of the way. This site prioritizes:
+## The thinking behind it
 
-- **Speed**: No frameworks, no bloat
-- **Focus**: Clean typography, minimal distractions
-- **Accessibility**: Keyboard-navigable, screen-reader friendly
-- **Portability**: Runs anywhere with a browser
+Study tools should disappear. You should be thinking about security concepts, not fighting the interface. So: no bloat, clean typography, keyboard navigation, screen-reader support, and it runs anywhere you have a browser.
 
 ## Contributing
 
-Found an error? Want to add content? PRs welcome.
+Spotted a mistake? Want to improve something? PRs are welcome.
 
 ## License
 
@@ -103,4 +60,4 @@ Proprietary. All rights reserved.
 
 ---
 
-*Built while studying for the Google Cybersecurity Certificate.*
+*Built during the Google Cybersecurity Certificate grind.*
