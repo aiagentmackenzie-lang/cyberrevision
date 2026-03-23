@@ -14,8 +14,19 @@ function contentInner(...children) {
 }
 
 export async function initRenderer() {
-  const res = await fetch('content/courses.json');
-  courses = await res.json();
+  try {
+    const res = await fetch('content/courses.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    courses = await res.json();
+  } catch (err) {
+    console.error('Failed to load courses.json', err);
+    const panel = document.getElementById('content-panel');
+    const errEl = document.createElement('div');
+    errEl.className = 'content-error';
+    errEl.textContent = 'Could not load course data. Please refresh.';
+    panel.replaceChildren(contentInner(errEl));
+    return;
+  }
   document.addEventListener('route', async (e) => {
     const { courseId, moduleId } = e.detail;
     if (!courseId || !moduleId) {
@@ -74,6 +85,16 @@ function renderLanding() {
 
 async function renderModule(courseId, moduleId) {
   const panel = document.getElementById('content-panel');
+
+  // Validate ID format - only allow slug-style identifiers
+  if (!/^[\w-]+$/.test(courseId) || !/^[\w-]+$/.test(moduleId)) {
+    const errEl = document.createElement('div');
+    errEl.className = 'content-error';
+    errEl.textContent = 'Could not load this module. Please try again.';
+    panel.replaceChildren(contentInner(errEl));
+    return;
+  }
+
   const filePath = 'content/' + courseId + '/' + moduleId + '.md';
 
   try {
