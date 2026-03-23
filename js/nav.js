@@ -5,8 +5,14 @@
 let courses = [];
 
 export async function initNav() {
-  const res = await fetch('content/courses.json');
-  courses = await res.json();
+  try {
+    const res = await fetch('content/courses.json');
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    courses = await res.json();
+  } catch (err) {
+    console.error('Failed to load courses.json', err);
+    return;
+  }
   buildSidebar();
   updateProgressTotal();
   document.addEventListener('route', (e) => {
