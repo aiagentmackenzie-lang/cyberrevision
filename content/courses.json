@@ -1,0 +1,75 @@
+[
+  {
+    "id": "01-foundations",
+    "title": "Foundations of Cybersecurity",
+    "modules": [
+      { "id": "01-introduction-to-cybersecurity", "title": "Introduction to Cybersecurity", "quiz": null },
+      { "id": "02-security-lifecycle", "title": "Security Lifecycle", "quiz": null },
+      { "id": "03-security-frameworks-controls", "title": "Security Frameworks & Controls", "quiz": null }
+    ]
+  },
+  {
+    "id": "02-play-it-safe",
+    "title": "Play It Safe: Manage Security Risks",
+    "modules": [
+      { "id": "01-security-frameworks", "title": "Security Frameworks", "quiz": null },
+      { "id": "02-risk-management", "title": "Risk Management", "quiz": null },
+      { "id": "03-security-controls", "title": "Security Controls", "quiz": null }
+    ]
+  },
+  {
+    "id": "03-network-security",
+    "title": "Connect and Protect: Networks & Network Security",
+    "modules": [
+      { "id": "01-network-fundamentals", "title": "Network Fundamentals", "quiz": null },
+      { "id": "02-network-protocols", "title": "Network Protocols", "quiz": null },
+      { "id": "03-network-security", "title": "Network Security", "quiz": null }
+    ]
+  },
+  {
+    "id": "04-linux-sql",
+    "title": "Tools of the Trade: Linux & SQL",
+    "modules": [
+      { "id": "01-linux-fundamentals", "title": "Linux Fundamentals", "quiz": null },
+      { "id": "02-linux-security", "title": "Linux Security", "quiz": null },
+      { "id": "03-sql-for-security", "title": "SQL for Security", "quiz": null }
+    ]
+  },
+  {
+    "id": "05-assets-threats-vulnerabilities",
+    "title": "Assets, Threats, and Vulnerabilities",
+    "modules": [
+      { "id": "01-asset-management", "title": "Asset Management", "quiz": null },
+      { "id": "02-threat-landscape", "title": "Threat Landscape", "quiz": null },
+      { "id": "03-vulnerability-management", "title": "Vulnerability Management", "quiz": null }
+    ]
+  },
+  {
+    "id": "06-sound-the-alarm",
+    "title": "Sound the Alarm: Detection & Response",
+    "modules": [
+      { "id": "01-detection-systems", "title": "Detection Systems", "quiz": null },
+      { "id": "02-incident-response", "title": "Incident Response", "quiz": null },
+      { "id": "03-forensics-investigation", "title": "Forensics & Investigation", "quiz": null }
+    ]
+  },
+  {
+    "id": "07-automate-python",
+    "title": "Automate Cybersecurity Tasks with Python",
+    "modules": [
+      { "id": "01-python-fundamentals", "title": "Python Fundamentals", "quiz": null },
+      { "id": "02-security-scripting", "title": "Security Scripting", "quiz": null },
+      { "id": "03-automation-orchestration", "title": "Automation & Orchestration", "quiz": null }
+    ]
+  },
+  {
+    "id": "08-job-prep",
+    "title": "Put It to Work: Prepare for Cybersecurity Jobs",
+    "modules": [
+      { "id": "01-job-search-strategy", "title": "Job Search Strategy", "quiz": null },
+      { "id": "02-resume-portfolio", "title": "Resume & Portfolio", "quiz": null },
+      { "id": "03-interview-prep", "title": "Interview Prep", "quiz": null },
+      { "id": "04-continuous-learning", "title": "Continuous Learning", "quiz": null }
+    ]
+  }
+]
