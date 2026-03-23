@@ -1,0 +1,62 @@
+:root {
+  --bg-page:      #0a0e1a;
+  --bg-sidebar:   #0d1117;
+  --bg-hover:     #1e293b;
+  --accent:       #00ff9d;
+  --text-primary: #e2e8f0;
+  --text-muted:   #64748b;
+  --border:       #1e293b;
+  --font-body: Inter, system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', Consolas, monospace;
+  --sidebar-width: 260px;
+  --header-height: 56px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+html, body {
+  height: 100%;
+  background: var(--bg-page);
+  color: var(--text-primary);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+#site-header {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  height: var(--header-height);
+  background: var(--bg-sidebar);
+  border-bottom: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 24px;
+  z-index: 100;
+}
+
+.header-brand {
+  display: flex; align-items: center; gap: 10px;
+  font-weight: 600; font-size: 16px; letter-spacing: 0.02em;
+}
+.header-lock { font-size: 18px; }
+.header-title { color: var(--accent); }
+
+.header-progress {
+  font-family: var(--font-mono);
+  font-size: 13px;
+  color: var(--text-muted);
+  display: flex; align-items: center; gap: 4px;
+}
+#progress-visited { color: var(--accent); font-weight: 500; }
+
+#layout {
+  display: flex;
+  height: 100vh;
+  padding-top: var(--header-height);
+}
