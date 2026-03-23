@@ -57,6 +57,14 @@ a:hover { text-decoration: underline; }
 
 #layout {
   display: flex;
-  height: 100vh;
-  padding-top: var(--header-height);
+  height: calc(100vh - var(--header-height));
+  margin-top: var(--header-height);
 }
+
+/* Shared scrollbar styles */
+#sidebar::-webkit-scrollbar,
+#content-panel::-webkit-scrollbar { width: 4px; }
+#sidebar::-webkit-scrollbar-track,
+#content-panel::-webkit-scrollbar-track { background: transparent; }
+#sidebar::-webkit-scrollbar-thumb,
+#content-panel::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
