@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CyberRevision</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/nav.css">
+  <link rel="stylesheet" href="css/content.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.0/marked.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/dompurify@3.1.6/dist/purify.min.js"></script>
+</head>
+<body>
+  <header id="site-header">
+    <div class="header-brand">
+      <span class="header-lock">🔒</span>
+      <span class="header-title">CyberRevision</span>
+    </div>
+    <div class="header-progress">
+      <span id="progress-visited">0</span>
+      <span class="progress-sep">/</span>
+      <span id="progress-total">-</span>
+      <span class="progress-label">modules</span>
+    </div>
+  </header>
+  <div id="layout">
+    <nav id="sidebar">
+      <div id="course-list"></div>
+    </nav>
+    <main id="content-panel"></main>
+  </div>
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
