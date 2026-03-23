@@ -23,7 +23,7 @@
     "modules": [
       { "id": "01-network-fundamentals", "title": "Network Fundamentals", "quiz": null },
       { "id": "02-network-protocols", "title": "Network Protocols", "quiz": null },
-      { "id": "03-network-security", "title": "Network Security", "quiz": null }
+      { "id": "03-securing-networks", "title": "Network Security", "quiz": null }
     ]
   },
   {
