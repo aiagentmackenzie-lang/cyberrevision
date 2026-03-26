@@ -3,6 +3,8 @@
 // sanitizes with DOMPurify, injects into #content-panel, then dispatches 'moduleRendered'.
 // Home state (no courseId/moduleId) renders the landing course-card grid.
 
+import { initQuiz } from './quiz.js';
+
 let courses = [];
 const visitedModules = new Set();
 
@@ -109,13 +111,23 @@ async function renderModule(courseId, moduleId) {
     body.className = 'md-body';
     body.innerHTML = safeHTML; // safeHTML is DOMPurify-sanitized above
 
+    const course = courses.find(c => c.id === courseId);
+    const mod = course?.modules.find(m => m.id === moduleId);
+    const quizFile = mod?.quiz || null;
+
     const footer = document.createElement('div');
     footer.className = 'quiz-footer';
     const quizBtn = document.createElement('button');
     quizBtn.className = 'quiz-btn';
-    quizBtn.disabled = true;
-    quizBtn.title = 'Coming soon';
     quizBtn.textContent = 'Quiz \u2192';
+    if (quizFile) {
+      quizBtn.disabled = false;
+      quizBtn.title = 'Take the quiz for this module';
+      quizBtn.addEventListener('click', () => initQuiz(courseId, moduleId, quizFile));
+    } else {
+      quizBtn.disabled = true;
+      quizBtn.title = 'Quiz coming soon';
+    }
     footer.appendChild(quizBtn);
 
     panel.replaceChildren(contentInner(body, footer));
