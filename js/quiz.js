@@ -75,7 +75,8 @@ export async function initQuiz(courseId, moduleId, quizFile) {
           score++;
         } else {
           btn.classList.add('incorrect');
-          optionsEl.children[q.correct].classList.add('revealed');
+          const correctBtn = optionsEl.children[q.correct];
+          if (correctBtn) correctBtn.classList.add('revealed');
         }
         explanationEl.textContent = q.explanation;
         explanationEl.style.display = 'block';
