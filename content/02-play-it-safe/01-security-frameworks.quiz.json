@@ -1,0 +1,75 @@
+{
+  "moduleId": "02-play-it-safe/01-security-frameworks",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many steps are in the NIST Risk Management Framework (RMF)?",
+      "options": ["5", "6", "7", "8"],
+      "correct": 2,
+      "explanation": "The module describes 'The 7-Step RMF Process': Prepare, Categorize, Select, Implement, Assess, Authorize, and Monitor."
+    },
+    {
+      "id": "q2",
+      "question": "Which step in the RMF requires a senior official to make a risk-based decision to operate?",
+      "options": ["Assess", "Authorize", "Monitor", "Implement"],
+      "correct": 1,
+      "explanation": "Step 6, Authorize, is described as 'Senior official makes a risk-based decision to operate. Someone puts their name on the line.'"
+    },
+    {
+      "id": "q3",
+      "question": "What does CISA's Secure by Design initiative say about MFA availability?",
+      "options": ["MFA should be a premium feature", "MFA should be available at no extra cost", "MFA should only apply to admin accounts", "MFA is optional for consumers"],
+      "correct": 1,
+      "explanation": "The Secure by Design section contrasts the old way ('MFA costs extra') with the new way ('MFA available at no extra cost')."
+    },
+    {
+      "id": "q4",
+      "question": "What type of risk management was recently integrated into the NIST RMF as of 2026?",
+      "options": ["Financial risk", "Reputational risk", "Cyber supply chain risk management (SCRM)", "Environmental risk"],
+      "correct": 2,
+      "explanation": "The module states the RMF 2026 update 'now explicitly integrates: Security risk, Privacy risk, and Cyber supply chain risk management (SCRM).'"
+    },
+    {
+      "id": "q5",
+      "question": "According to the module, what does the RMF provide versus what CSF 2.0 provides?",
+      "options": ["RMF provides the what, CSF provides the how", "RMF provides the how, CSF 2.0 provides the what", "Both provide the same thing", "RMF is for government only, CSF for private sector"],
+      "correct": 1,
+      "explanation": "The module states 'While RMF is the how, CSF 2.0 is the what.' RMF gives the process (7 steps), CSF gives the structure (6 functions)."
+    },
+    {
+      "id": "q6",
+      "question": "What does the ISACA State of Cybersecurity 2025 survey identify as a widely overlooked gap opportunity?",
+      "options": ["Cloud security assessments", "AI integration testing", "Physical penetration testing", "Supply chain audits"],
+      "correct": 2,
+      "explanation": "The ISACA survey section notes that 'Physical pen testing: Still widely overlooked (gap opportunity!)'"
+    },
+    {
+      "id": "q7",
+      "question": "What is the public comment deadline for the CSF 2.0 Informative References Quick-Start Guide?",
+      "options": ["January 2026", "February 23, 2026", "May 6, 2026", "December 2026"],
+      "correct": 2,
+      "explanation": "The module's 2026 updates table lists the 'CSF 2.0 Informative References Quick-Start Guide' as open for public comment with a deadline of 'May 6, 2026.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which RMF step involves classifying your system and data based on impact levels (low/moderate/high)?",
+      "options": ["Prepare", "Categorize", "Select", "Assess"],
+      "correct": 1,
+      "explanation": "Step 2, Categorize, is described as 'Classify your system and data based on impact (low/moderate/high).'"
+    },
+    {
+      "id": "q9",
+      "question": "Why is the Cyber AI Profile described as significant in the module?",
+      "options": ["It replaces CSF 2.0 entirely", "It is NIST's first serious framework for securing AI/ML systems", "It eliminates the need for CISA guidance", "It only applies to government agencies"],
+      "correct": 1,
+      "explanation": "The module states: 'The Cyber AI Profile is big. It's NIST's first serious framework for securing AI/ML systems.'"
+    },
+    {
+      "id": "q10",
+      "question": "According to the module, what has replaced point-in-time security assessments?",
+      "options": ["Annual audits", "Quarterly reviews", "Continuous monitoring", "Biannual penetration testing"],
+      "correct": 2,
+      "explanation": "In the Monitor step, the module states: 'Point-in-time assessments are dead. Continuous monitoring is the standard now.'"
+    }
+  ]
+}

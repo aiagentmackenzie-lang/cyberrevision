@@ -1,0 +1,75 @@
+{
+  "moduleId": "04-linux-sql/03-sql-for-security",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What percentage of web application attacks does SQL injection account for according to the module?",
+      "options": ["35%", "50%", "65%", "80%"],
+      "correct": 2,
+      "explanation": "The module states 'SQL injection still accounts for 65% of web application attacks.'"
+    },
+    {
+      "id": "q2",
+      "question": "What is the ONLY valid defense against SQL injection according to the module?",
+      "options": ["Input escaping", "Blacklist filtering", "Parameterized queries (prepared statements)", "Web application firewalls"],
+      "correct": 2,
+      "explanation": "The module titles the defense section 'The Only Valid Defense' and explains 'Parameterized queries (prepared statements) separate SQL code from data.'"
+    },
+    {
+      "id": "q3",
+      "question": "Which SQL injection type involves inferring information from response time differences?",
+      "options": ["In-Band injection", "Boolean-based Blind", "Time-based Blind", "Out-of-Band injection"],
+      "correct": 2,
+      "explanation": "The module shows Time-based Blind injection: 'If response takes 5 seconds, injection confirmed' using SLEEP() functions."
+    },
+    {
+      "id": "q4",
+      "question": "Why does the module mark the .raw() method in Django ORM as dangerous?",
+      "options": ["It is slow", "It bypasses ORM protections by allowing direct SQL with user input", "It doesn't support PostgreSQL", "It requires root access"],
+      "correct": 1,
+      "explanation": "The module marks '.raw() method' as 'DANGEROUS' because it allows direct SQL execution like 'User.objects.raw(f\"SELECT * FROM users WHERE id = {user_id}\")' which bypasses parameterization."
+    },
+    {
+      "id": "q5",
+      "question": "What database privilege should an application user NOT have according to the module's hardening guidance?",
+      "options": ["SELECT", "INSERT", "UPDATE", "DROP, CREATE, ALTER"],
+      "correct": 3,
+      "explanation": "The module states the application database user 'Should NOT: Have DROP, CREATE, ALTER privileges' as part of the Principle of Least Privilege."
+    },
+    {
+      "id": "q6",
+      "question": "Which database is described as gaining market share for security-critical applications in 2026?",
+      "options": ["MySQL", "SQLite", "PostgreSQL", "Oracle"],
+      "correct": 2,
+      "explanation": "The module notes: 'PostgreSQL gaining market share for security-critical applications' with a 'Robust permission system, row-level security.'"
+    },
+    {
+      "id": "q7",
+      "question": "What SQL injection indicator involves attackers querying information_schema or pg_catalog?",
+      "options": ["Authentication bypass", "Time-based probing", "Schema enumeration", "Data exfiltration"],
+      "correct": 2,
+      "explanation": "The module lists 'information_schema, pg_catalog — Schema enumeration' as an SQL injection indicator to search for in logs."
+    },
+    {
+      "id": "q8",
+      "question": "What is a Second-Order SQL injection?",
+      "options": ["An injection that requires two attempts", "Malicious input that is stored safely but executed later when displayed without escaping", "An injection through two different form fields", "A double-encoded injection payload"],
+      "correct": 1,
+      "explanation": "The module defines Second-Order injection as 'Malicious input stored, executed later' where 'Application stores username safely (escaped)' but 'Later, admin panel displays username without escaping → executes.'"
+    },
+    {
+      "id": "q9",
+      "question": "What emerging attack vector does the module's 2026 update highlight as applying the same defense principles?",
+      "options": ["Quantum SQL attacks", "JSON injection in APIs and GraphQL SQL bridges", "Blockchain SQL exploitation", "Voice-activated SQL commands"],
+      "correct": 1,
+      "explanation": "The module's 2026 update states: 'JSON injection in APIs and GraphQL SQL bridges are emerging attack vectors. Same principles apply—parameterize everything.'"
+    },
+    {
+      "id": "q10",
+      "question": "Which threat hunting query from the module detects potential data exfiltration?",
+      "options": ["Queries checking for failed logins in the past hour", "Queries returning more than 10,000 rows", "Queries checking for off-hours access", "Queries counting tables accessed"],
+      "correct": 1,
+      "explanation": "The module includes a 'Large Result Sets (Data Exfiltration)' query that finds 'Queries returning >10,000 rows' within the last 24 hours."
+    }
+  ]
+}

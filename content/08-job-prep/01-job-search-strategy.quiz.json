@@ -1,0 +1,75 @@
+{
+  "moduleId": "08-job-prep/01-job-search-strategy",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the most common entry-level cybersecurity role according to the module?",
+      "options": ["Junior Security Engineer", "Cybersecurity Analyst", "SOC Analyst", "IT Security Administrator"],
+      "correct": 2,
+      "explanation": "The module states: 'SOC Analyst is the entry point. Most common first role. Great learning experience.'"
+    },
+    {
+      "id": "q2",
+      "question": "How many unfilled cybersecurity positions exist in the U.S. alone?",
+      "options": ["250,000+", "500,000+", "750,000+", "1,000,000+"],
+      "correct": 2,
+      "explanation": "The module lists '750,000+ open positions in the U.S.' alongside 3.5 million globally."
+    },
+    {
+      "id": "q3",
+      "question": "Which certification is described as FREE and best for entry-level with no experience?",
+      "options": ["CompTIA Security+", "Google Cybersecurity Certificate", "ISC2 CC (Certified in Cybersecurity)", "CEH"],
+      "correct": 2,
+      "explanation": "The certifications table lists 'ISC2 CC (Certified in Cybersecurity)' as 'FREE (promotional)' and best for 'Entry-level with no experience.'"
+    },
+    {
+      "id": "q4",
+      "question": "What salary premium can a security clearance add according to the module?",
+      "options": ["5-10%", "10-25%", "30-40%", "50%+"],
+      "correct": 1,
+      "explanation": "The factors affecting salary table shows 'Clearance: Security clearance adds 10-25% premium.'"
+    },
+    {
+      "id": "q5",
+      "question": "What percentage of cybersecurity roles offer remote or hybrid work in 2026?",
+      "options": ["30-40%", "40-50%", "50-60%", "60-70%"],
+      "correct": 3,
+      "explanation": "The module states: '60-70% of roles offer remote/hybrid' as a 2026 trend."
+    },
+    {
+      "id": "q6",
+      "question": "What does the module recommend as the best networking approach for breaking into cybersecurity?",
+      "options": ["Mass applying to job postings", "Informational interviews with SOC managers and security engineers", "Cold emailing CEOs", "Only attending large conferences"],
+      "correct": 1,
+      "explanation": "The module recommends 'Request 15-20 minute calls with SOC managers, security engineers' as an effective networking strategy."
+    },
+    {
+      "id": "q7",
+      "question": "What are the five exam domains of CompTIA Security+ SY0-701?",
+      "options": ["Network, Cloud, Risk, Compliance, Incident Response", "General Security Concepts, Threats/Vulnerabilities/Mitigations, Security Architecture, Security Operations, Security Program Management", "Cryptography, Networking, OS Security, Application Security, Physical Security", "Detection, Prevention, Response, Recovery, Governance"],
+      "correct": 1,
+      "explanation": "The module lists the five domains: General Security Concepts (12%), Threats/Vulnerabilities/Mitigations (22%), Security Architecture (18%), Security Operations (28%), Security Program Management (20%)."
+    },
+    {
+      "id": "q8",
+      "question": "According to the module's action plan, what should be accomplished in Days 1-30?",
+      "options": ["Land interviews and negotiate offers", "Earn Security+, build home lab, update LinkedIn, set job alerts", "Complete hands-on projects and attend meetups", "Accept first security role and plan next certification"],
+      "correct": 1,
+      "explanation": "The Days 1-30 Foundation plan includes: 'Earn Security+ certification, Build home lab, Update LinkedIn profile, Join communities, Set job alerts.'"
+    },
+    {
+      "id": "q9",
+      "question": "What percentage of jobs come through networking connections according to the module?",
+      "options": ["30%", "50%", "70%", "90%"],
+      "correct": 2,
+      "explanation": "The module states: '70% of jobs come through connections. Informational interviews work.'"
+    },
+    {
+      "id": "q10",
+      "question": "How many years of experience does CISSP require?",
+      "options": ["2 years", "3 years", "5 years", "7 years"],
+      "correct": 2,
+      "explanation": "The module states CISSP requires '5 years full-time experience in 2+ of 8 domains' or '4 years + degree/certification.'"
+    }
+  ]
+}

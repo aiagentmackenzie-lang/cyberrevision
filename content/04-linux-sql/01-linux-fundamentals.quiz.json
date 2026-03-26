@@ -1,0 +1,75 @@
+{
+  "moduleId": "04-linux-sql/01-linux-fundamentals",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What percentage of web servers run Linux according to the module?",
+      "options": ["75%", "85%", "90%", "96%"],
+      "correct": 3,
+      "explanation": "The module states 'Linux powers the infrastructure: 96% of web servers, 90% of cloud workloads, 100% of supercomputers.'"
+    },
+    {
+      "id": "q2",
+      "question": "What does the octal permission value 755 represent?",
+      "options": ["rw-r--r--", "rwxr-xr-x", "rwx------", "rwxrwxrwx"],
+      "correct": 1,
+      "explanation": "The module shows 'chmod 755 script.sh' equals 'rwxr-xr-x (owner read/write/execute, group/others read/execute).'"
+    },
+    {
+      "id": "q3",
+      "question": "Which directory contains all system configuration files according to the FHS?",
+      "options": ["/var", "/etc", "/usr", "/opt"],
+      "correct": 1,
+      "explanation": "The module lists '/etc: Configuration — All system configs live here—backup regularly' in the filesystem hierarchy."
+    },
+    {
+      "id": "q4",
+      "question": "What permissions should /etc/shadow have, and why?",
+      "options": ["644 — so all users can read passwords", "640 — root only, as it contains encrypted passwords", "755 — so scripts can access it", "777 — for maximum compatibility"],
+      "correct": 1,
+      "explanation": "The module states '/etc/shadow: Encrypted passwords, 640 (root only)' and warns if it's world-readable, 'you have a major vulnerability.'"
+    },
+    {
+      "id": "q5",
+      "question": "What does the bash strict mode 'set -euo pipefail' do?",
+      "options": ["Enables verbose output", "Exits on error, errors on undefined variables, pipeline fails if any command fails", "Runs scripts in debug mode", "Disables all error messages"],
+      "correct": 1,
+      "explanation": "The module explains: '-e: Exit on error, -u: Error on undefined variables, -o pipefail: Pipeline fails if any command fails.'"
+    },
+    {
+      "id": "q6",
+      "question": "What is the 2026 key trend for secure Linux distributions mentioned in the module?",
+      "options": ["Graphical-only interfaces", "Immutable distributions with read-only root filesystems", "Windows compatibility layers", "Proprietary kernel modules"],
+      "correct": 1,
+      "explanation": "The module highlights: 'Immutable distributions are gaining traction. Read-only root filesystems prevent tampering—updates are atomic rollbacks.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which signal should you always try first when killing a process?",
+      "options": ["SIGKILL (-9)", "SIGTERM (-15)", "SIGHUP (-1)", "SIGSTOP"],
+      "correct": 1,
+      "explanation": "The module states: 'Always try -15 first. -9 is the nuclear option—data loss may occur.' SIGTERM allows graceful termination."
+    },
+    {
+      "id": "q8",
+      "question": "What advantage does journald's binary format provide for security?",
+      "options": ["Smaller file sizes only", "Cryptographic sealing (Forward Secure Sealing) for tamper-resistant logging", "Faster writing speeds only", "Compatibility with older systems"],
+      "correct": 1,
+      "explanation": "The module states: 'journald uses binary format with cryptographic sealing (Forward Secure Sealing). Tamper-resistant logging.'"
+    },
+    {
+      "id": "q9",
+      "question": "What is the module's recommendation for shell choice in 2026?",
+      "options": ["Bash for everything", "ZSH for everything", "ZSH for interactive shells, Bash for scripts", "Fish for interactive shells, ZSH for scripts"],
+      "correct": 2,
+      "explanation": "The module recommends: 'ZSH for interactive shells (your daily terminal)—better UX' and 'Bash for scripts (automation)—maximum portability across systems.'"
+    },
+    {
+      "id": "q10",
+      "question": "Which Linux distribution is described as providing 'Security by isolation' using Xen-based virtualization?",
+      "options": ["Tails", "Kali Linux", "Qubes OS", "Secureblue"],
+      "correct": 2,
+      "explanation": "The module lists 'Qubes OS: Security by isolation — Xen-based virtualization, compartmentalization' in the security-hardened distros table."
+    }
+  ]
+}

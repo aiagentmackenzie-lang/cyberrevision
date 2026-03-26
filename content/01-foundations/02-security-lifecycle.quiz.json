@@ -1,0 +1,75 @@
+{
+  "moduleId": "01-foundations/02-security-lifecycle",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which function was newly added to NIST CSF 2.0 that was not in version 1.1?",
+      "options": ["IDENTIFY", "GOVERN", "DETECT", "RECOVER"],
+      "correct": 1,
+      "explanation": "The module states that 'GOVERN was added because without leadership buy-in and strategy, the other five functions fall apart.'"
+    },
+    {
+      "id": "q2",
+      "question": "How many core functions does NIST CSF 2.0 include?",
+      "options": ["Four", "Five", "Six", "Seven"],
+      "correct": 2,
+      "explanation": "NIST CSF 2.0 has six functions: GOVERN, IDENTIFY, PROTECT, DETECT, RESPOND, and RECOVER."
+    },
+    {
+      "id": "q3",
+      "question": "According to the module, what is the average breach detection time?",
+      "options": ["30 days", "90 days", "187 days", "287 days"],
+      "correct": 3,
+      "explanation": "The module states 'Average breach detection time: 287 days (almost 10 months of silent compromise).'"
+    },
+    {
+      "id": "q4",
+      "question": "When was NIST CSF 2.0 released?",
+      "options": ["January 2023", "February 2024", "June 2024", "January 2026"],
+      "correct": 1,
+      "explanation": "The module states 'NIST CSF 2.0 (released February 2024) is what most organizations use.'"
+    },
+    {
+      "id": "q5",
+      "question": "Which framework is described as best for U.S. Defense contractors?",
+      "options": ["ISO/IEC 27001", "COBIT", "CIS Controls", "CMMC"],
+      "correct": 3,
+      "explanation": "The Other Frameworks table lists CMMC 2.0 as 'Best For: U.S. Defense contractors.'"
+    },
+    {
+      "id": "q6",
+      "question": "What does the PROTECT function focus on in the security lifecycle?",
+      "options": ["Knowing what assets you have", "Keeping threats out with safeguards", "Monitoring for anomalies", "Restoring operations after an incident"],
+      "correct": 1,
+      "explanation": "The module describes PROTECT as 'Safeguards' with the meaning 'How do we keep threats out?'"
+    },
+    {
+      "id": "q7",
+      "question": "What 2026 update introduced preliminary guidance for AI system security within the NIST framework?",
+      "options": ["SP 1308", "CIS Controls v8.1", "Cyber AI Profile", "CMMC 2.0"],
+      "correct": 2,
+      "explanation": "The module lists the 'Cyber AI Profile: Preliminary draft for AI system security (January 2026)' as a 2026 update."
+    },
+    {
+      "id": "q8",
+      "question": "Which lifecycle phase involves running tabletop exercises to simulate attacks?",
+      "options": ["IDENTIFY", "PROTECT", "DETECT", "RESPOND"],
+      "correct": 3,
+      "explanation": "Under the RESPOND function, the module advises: 'Run tabletop exercises. Simulate a ransomware attack at 2 AM. Find gaps fast.'"
+    },
+    {
+      "id": "q9",
+      "question": "What does the module describe as the foundational step before you can protect anything?",
+      "options": ["Implementing encryption", "Running tabletop exercises", "Knowing what you have (asset inventory)", "Hiring a security team"],
+      "correct": 2,
+      "explanation": "Under the IDENTIFY function, the module states 'Before you protect anything, know what you have' and emphasizes asset inventory."
+    },
+    {
+      "id": "q10",
+      "question": "What key insight does the module share about why GOVERN was added to CSF 2.0?",
+      "options": ["Government regulations required it", "Without leadership buy-in and strategy, the other five functions fall apart", "It replaced the old DETECT function", "International compliance demanded it"],
+      "correct": 1,
+      "explanation": "The module explicitly states: 'GOVERN was added because without leadership buy-in and strategy, the other five functions fall apart. Cybersecurity is a business function, not just IT.'"
+    }
+  ]
+}

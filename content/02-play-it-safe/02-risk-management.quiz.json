@@ -1,0 +1,75 @@
+{
+  "moduleId": "02-play-it-safe/02-risk-management",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which risk treatment option is described as 'NEVER acceptable in professional security practice'?",
+      "options": ["Risk Avoidance", "Risk Acceptance", "Risk Rejection", "Risk Transfer"],
+      "correct": 2,
+      "explanation": "The module marks Risk Rejection with a red X and states it is 'Never acceptable in professional security practice. Ignoring it is negligence.'"
+    },
+    {
+      "id": "q2",
+      "question": "According to the risk matrix, what risk level results from High Likelihood and High Impact?",
+      "options": ["Moderate Risk", "High Risk", "Critical Risk", "Low Risk"],
+      "correct": 2,
+      "explanation": "The simple risk matrix shows High Likelihood × High Impact = Critical Risk (the highest level)."
+    },
+    {
+      "id": "q3",
+      "question": "Which risk treatment option is described as the most common in practice?",
+      "options": ["Risk Avoidance", "Risk Acceptance", "Risk Mitigation", "Risk Transfer"],
+      "correct": 2,
+      "explanation": "Risk Mitigation is marked with a star as '(Most Common)' and the module says 'This is where most of your effort goes.'"
+    },
+    {
+      "id": "q4",
+      "question": "What does NIST SP 800-30 define as the three tiers of risk assessment?",
+      "options": ["Technical, Operational, Strategic", "Organization, Mission/Business Process, Information System", "High, Medium, Low", "Prevention, Detection, Response"],
+      "correct": 1,
+      "explanation": "The module describes three tiers: 'Tier 1: Organization,' 'Tier 2: Mission/Business Process,' and 'Tier 3: Information System.'"
+    },
+    {
+      "id": "q5",
+      "question": "An organization purchases cyber insurance to handle potential breach costs. Which risk treatment is this?",
+      "options": ["Risk Mitigation", "Risk Avoidance", "Risk Acceptance", "Risk Sharing/Transfer"],
+      "correct": 3,
+      "explanation": "The module lists 'Cyber insurance (transfers financial risk)' as a mechanism under Risk Sharing/Transfer."
+    },
+    {
+      "id": "q6",
+      "question": "What critical requirement does the module emphasize for Risk Acceptance?",
+      "options": ["It must be cost-free", "It requires explicit documented approval from someone with authority", "It only applies to low-impact systems", "It eliminates the need for monitoring"],
+      "correct": 1,
+      "explanation": "The module states: 'Risk acceptance requires explicit documented approval from someone with authority. Don't just ignore risks—formally accept them.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which step in the risk assessment process should you complete first according to the module?",
+      "options": ["Identify Threats", "Identify Assets", "Assess Likelihood", "Calculate Risk Level"],
+      "correct": 1,
+      "explanation": "Step 1 is Identify Assets: 'What do you have that matters?' The module says 'If you don't know what you have, stop here and fix that first.'"
+    },
+    {
+      "id": "q8",
+      "question": "According to the module, what new category of threat was added in 2026?",
+      "options": ["Quantum computing threats", "AI-generated threats (deepfakes, AI-powered attacks)", "Satellite-based attacks", "Blockchain-based threats"],
+      "correct": 1,
+      "explanation": "The module's 2026 update notes: 'AI-generated threats (deepfakes, AI-powered attacks) are now a distinct category.'"
+    },
+    {
+      "id": "q9",
+      "question": "What tools does the module list as enabling continuous risk management?",
+      "options": ["Firewalls and IDS only", "GRC platforms, automated vulnerability management, threat intelligence platforms, and SIEM", "Manual spreadsheets and annual audits", "Antivirus and email filtering"],
+      "correct": 1,
+      "explanation": "The module lists tools enabling continuous risk management: 'GRC platforms, Automated vulnerability management, Threat intelligence platforms, SIEM correlation for risk indicators.'"
+    },
+    {
+      "id": "q10",
+      "question": "What warning does the module give about outsourcing risk through third parties?",
+      "options": ["It always reduces risk", "You can outsource operations but not accountability", "Third parties always increase risk", "Insurance eliminates all transferred risk"],
+      "correct": 1,
+      "explanation": "The module warns: 'You can outsource operations, but you can't outsource accountability' under Risk Sharing/Transfer."
+    }
+  ]
+}

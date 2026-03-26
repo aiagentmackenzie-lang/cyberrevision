@@ -1,0 +1,75 @@
+{
+  "moduleId": "04-linux-sql/02-linux-security",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the key difference between SELinux and AppArmor in how they enforce security?",
+      "options": ["SELinux is label-based; AppArmor is path-based", "SELinux is path-based; AppArmor is label-based", "Both use the same approach", "SELinux uses encryption; AppArmor uses hashing"],
+      "correct": 0,
+      "explanation": "The module explains SELinux uses 'Label-based security — every process, file, port has a security context' while AppArmor uses 'Path-based profiles — easier to understand than SELinux labels.'"
+    },
+    {
+      "id": "q2",
+      "question": "What does AIDE monitor in a Linux system?",
+      "options": ["Network traffic patterns", "File integrity — alerts when critical files change", "User login patterns", "CPU and memory usage"],
+      "correct": 1,
+      "explanation": "The module describes AIDE as 'Monitors file integrity—alerts when critical files change' including permissions, checksums, and timestamps."
+    },
+    {
+      "id": "q3",
+      "question": "Which SSH hardening setting should be configured to 'no' to prevent root access?",
+      "options": ["PasswordAuthentication", "PermitRootLogin", "X11Forwarding", "PubkeyAuthentication"],
+      "correct": 1,
+      "explanation": "The module's SSH hardening checklist specifies 'PermitRootLogin no — Never allow root login.'"
+    },
+    {
+      "id": "q4",
+      "question": "What post-quantum key exchange algorithm does OpenSSH 9.9 introduce?",
+      "options": ["RSA-4096", "curve25519-sha256", "mlkem768x25519-sha256", "AES-256-GCM"],
+      "correct": 2,
+      "explanation": "The module lists 'Post-quantum key exchange: mlkem768x25519-sha256 (hybrid ML-KEM + X25519)' as a new OpenSSH 9.9 feature."
+    },
+    {
+      "id": "q5",
+      "question": "What does the PAM module pam_faillock.so enforce when configured with 'deny=5 unlock_time=900'?",
+      "options": ["Password complexity requirements", "Account lockout after 5 failed attempts with 15-minute lockout", "Session timeout after 5 minutes", "Maximum 5 concurrent logins"],
+      "correct": 1,
+      "explanation": "The module explains this PAM configuration 'enforces: Account lockout after 5 failed attempts, 15-minute lockout duration.'"
+    },
+    {
+      "id": "q6",
+      "question": "Which container runtime is rootless by default according to the module?",
+      "options": ["Docker", "Podman", "containerd", "CRI-O"],
+      "correct": 1,
+      "explanation": "The module highlights 'Podman (Rootless by Default)' with the note 'No daemon, works without root.'"
+    },
+    {
+      "id": "q7",
+      "question": "What boot parameter should be added to ensure all processes are auditable from boot?",
+      "options": ["selinux=1", "audit=1", "debug=1", "secure=1"],
+      "correct": 1,
+      "explanation": "The module states: 'Add audit=1 to kernel parameters to ensure all processes are auditable from boot.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which firewall tool uses zone-based, dynamic management on RHEL/CentOS/Fedora?",
+      "options": ["ufw", "iptables", "firewalld", "nftables"],
+      "correct": 2,
+      "explanation": "The module describes 'firewalld — RHEL/CentOS/Fedora' as 'Zone-based, dynamic management.'"
+    },
+    {
+      "id": "q9",
+      "question": "What does Lynis audit against when scanning a system?",
+      "options": ["Only kernel vulnerabilities", "CIS benchmarks, PCI DSS, HIPAA, and other standards", "Only network configurations", "Only user permissions"],
+      "correct": 1,
+      "explanation": "The module describes Lynis as 'Automated security auditing against CIS benchmarks, PCI DSS, HIPAA, etc.'"
+    },
+    {
+      "id": "q10",
+      "question": "Which SSH key type does the module recommend as preferred for generating new keys?",
+      "options": ["RSA 2048", "DSA", "ed25519", "ECDSA"],
+      "correct": 2,
+      "explanation": "The module shows 'ssh-keygen -t ed25519' as the preferred command with the comment 'ed25519 preferred' and RSA 4096 only 'if needed.'"
+    }
+  ]
+}

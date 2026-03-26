@@ -1,0 +1,75 @@
+{
+  "moduleId": "07-automate-python/02-security-scripting",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Why does the module warn against using 'shell=True' with subprocess?",
+      "options": ["It is slower", "It prevents shell injection attacks when using untrusted input", "It doesn't work on Linux", "It requires root privileges"],
+      "correct": 1,
+      "explanation": "The module warns: 'NEVER do this with untrusted input: subprocess.run(f\"nmap {user_input}\", shell=True) # DANGEROUS' and recommends using argument lists instead."
+    },
+    {
+      "id": "q2",
+      "question": "What cryptographic algorithm does the module show for symmetric encryption using the cryptography library?",
+      "options": ["AES-256", "RSA", "Fernet", "ChaCha20"],
+      "correct": 2,
+      "explanation": "The module demonstrates 'Fernet (Symmetric Encryption)' from the cryptography library for encrypting and decrypting data."
+    },
+    {
+      "id": "q3",
+      "question": "What is the OWASP recommended number of PBKDF2 iterations shown in the module?",
+      "options": ["100,000", "260,000", "480,000", "1,000,000"],
+      "correct": 2,
+      "explanation": "The module shows password hashing with 'iterations=480000, # OWASP recommended' for PBKDF2HMAC."
+    },
+    {
+      "id": "q4",
+      "question": "What does Scapy's TCP flag 'SA' indicate in a port scan response?",
+      "options": ["Port is closed", "Port is filtered", "Port is open (SYN-ACK received)", "Connection timed out"],
+      "correct": 2,
+      "explanation": "The module's port scanning code checks 'if resp[TCP].flags == \"SA\": # SYN-ACK' and prints 'Port {port}: Open.'"
+    },
+    {
+      "id": "q5",
+      "question": "What SSH host key policy does the module recommend for production security automation?",
+      "options": ["AutoAddPolicy", "RejectPolicy", "WarningPolicy", "IgnorePolicy"],
+      "correct": 1,
+      "explanation": "The module's security automation example uses 'client.set_missing_host_key_policy(paramiko.RejectPolicy())' for the hardening check function, while noting AutoAddPolicy is used for basic connections."
+    },
+    {
+      "id": "q6",
+      "question": "What does the module recommend always setting when making HTTP requests?",
+      "options": ["Custom headers", "Proxy settings", "Timeouts", "Cookies"],
+      "correct": 2,
+      "explanation": "The module's security best practices state: 'Always set timeouts — Prevent hanging requests.'"
+    },
+    {
+      "id": "q7",
+      "question": "What YAML function does the module warn should always be used for untrusted input?",
+      "options": ["yaml.load()", "yaml.safe_load()", "yaml.dump()", "yaml.parse()"],
+      "correct": 1,
+      "explanation": "The module warns: 'yaml.load() can execute arbitrary code. Always use yaml.safe_load() for untrusted input.'"
+    },
+    {
+      "id": "q8",
+      "question": "What does the module's regex-based IOC extraction identify from text containing 'd41d8cd98f00b204e9800998ecf8427e'?",
+      "options": ["IP addresses", "Domain names", "MD5 hashes", "URLs"],
+      "correct": 2,
+      "explanation": "The module's IOC extraction uses the pattern 'r\"\\b[a-f0-9]{32}\\b\"' to find 'MD5 hashes' from security text."
+    },
+    {
+      "id": "q9",
+      "question": "How many lines of code does WireGuard have compared to OpenVPN according to the Paramiko module's SSH context?",
+      "options": ["4,000 vs 50,000", "4,000 vs 100,000+", "10,000 vs 50,000", "10,000 vs 200,000"],
+      "correct": 1,
+      "explanation": "While covered in the network security module, the Paramiko section references SSH security. The codebase comparison from course 3 shows WireGuard at ~4,000 lines vs OpenVPN's 100,000+."
+    },
+    {
+      "id": "q10",
+      "question": "What Python library does the module describe as a 'Pure-Python SSHv2 implementation'?",
+      "options": ["Scapy", "Requests", "Paramiko", "Cryptography"],
+      "correct": 2,
+      "explanation": "The module describes Paramiko as 'Pure-Python SSHv2 implementation for remote server management.'"
+    }
+  ]
+}

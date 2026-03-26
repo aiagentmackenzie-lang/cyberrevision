@@ -1,0 +1,75 @@
+{
+  "moduleId": "07-automate-python/01-python-fundamentals",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What Python 3.13 feature enables true parallelism by disabling the GIL?",
+      "options": ["PEP 744: JIT Compiler", "PEP 703: Free-Threaded CPython", "PEP 695: Type Parameter Syntax", "PEP 594 Removals"],
+      "correct": 1,
+      "explanation": "The module describes 'PEP 703: Free-Threaded CPython' as providing 'python3.13t — GIL can be disabled for true parallelism.'"
+    },
+    {
+      "id": "q2",
+      "question": "What Python data structure is best for fast membership testing and set operations like intersection?",
+      "options": ["Lists", "Dictionaries", "Sets", "Tuples"],
+      "correct": 2,
+      "explanation": "The module shows sets for 'Fast membership test' and 'Set operations (critical for security analysis)' including intersection, union, and difference."
+    },
+    {
+      "id": "q3",
+      "question": "What is the security concern with Python 3.13's PEP 594?",
+      "options": ["It adds new attack surfaces", "It removes 19 legacy modules to reduce attack surface", "It breaks backward compatibility", "It disables encryption libraries"],
+      "correct": 1,
+      "explanation": "The module lists 'PEP 594 Removals: 19 legacy modules removed (reduces attack surface)' as a security-relevant Python 3.13 feature."
+    },
+    {
+      "id": "q4",
+      "question": "Why does the module recommend always using context managers (with statement) for file handling?",
+      "options": ["They make code faster", "They ensure files are properly closed even if errors occur", "They enable multi-threading", "They compress files automatically"],
+      "correct": 1,
+      "explanation": "The module emphasizes 'Always use context managers (with) and explicit encoding' for secure file handling, ensuring proper resource cleanup."
+    },
+    {
+      "id": "q5",
+      "question": "What does the module recommend for suppressing exception chaining when appropriate?",
+      "options": ["Use try/finally", "Use 'from None' to suppress chaining", "Use bare except", "Use sys.exit()", ""],
+      "correct": 1,
+      "explanation": "The module shows 'Suppress chaining when appropriate (from None)' with the example: 'raise AuthenticationError(\"API key not configured\") from None.'"
+    },
+    {
+      "id": "q6",
+      "question": "What hashlib improvement came in Python 3.12 according to the module?",
+      "options": ["SHA-1 was removed", "SHA-256/SHA-3 replaced with formally verified HACL* code", "MD5 was deprecated", "New quantum-resistant hashing was added"],
+      "correct": 1,
+      "explanation": "The module lists Python 3.12's 'hashlib Improvements: SHA-256/SHA-3 replaced with formally verified HACL* code.'"
+    },
+    {
+      "id": "q7",
+      "question": "What does the module recommend for managing Python project dependencies?",
+      "options": ["Install packages globally", "Use virtual environments (venv or Poetry)", "Download packages manually", "Use system package managers only"],
+      "correct": 1,
+      "explanation": "The module states: 'Virtual environments are mandatory. Isolate dependencies. Poetry or venv—just use something.'"
+    },
+    {
+      "id": "q8",
+      "question": "How does the module check if a file is a Windows executable using binary file handling?",
+      "options": ["Checking the file extension", "Checking if the first two bytes are b'MZ'", "Running the file command", "Checking file permissions"],
+      "correct": 1,
+      "explanation": "The module's binary file handling example checks 'if header[:2] == b\"MZ\"' to detect 'Windows executable detected.'"
+    },
+    {
+      "id": "q9",
+      "question": "What Python 3.10+ syntax does the module show for Union types?",
+      "options": ["Union[str, int]", "str | int using the pipe operator", "str or int", "Optional[str, int]"],
+      "correct": 1,
+      "explanation": "The module shows 'Union with | (Python 3.10+)' with the example 'def parse_port(port: str | int) -> int.'"
+    },
+    {
+      "id": "q10",
+      "question": "What security practice does the module recommend for Python dependency management?",
+      "options": ["Use the latest version of everything", "Pin dependency versions for reproducible builds and scan for vulnerabilities", "Avoid using external packages", "Only use packages with 1000+ stars"],
+      "correct": 1,
+      "explanation": "The module's security best practices include: 'Pin dependency versions for reproducible builds' and 'Scan dependencies for vulnerabilities (safety check, pip-audit).'"
+    }
+  ]
+}

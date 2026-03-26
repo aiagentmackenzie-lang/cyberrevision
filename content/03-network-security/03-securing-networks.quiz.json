@@ -1,0 +1,75 @@
+{
+  "moduleId": "03-network-security/03-securing-networks",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How much faster is WireGuard compared to OpenVPN according to the module?",
+      "options": ["1.5-2x faster", "2-3x faster", "3-4x faster", "5-6x faster"],
+      "correct": 2,
+      "explanation": "The module states WireGuard has 'Performance: ~3-4x faster than OpenVPN' with a codebase of only ~4,000 lines."
+    },
+    {
+      "id": "q2",
+      "question": "What does Mosca's Theorem help organizations determine regarding post-quantum cryptography?",
+      "options": ["How much encryption costs", "When to urgently migrate to quantum-resistant algorithms", "Which quantum computer to purchase", "How to break current encryption"],
+      "correct": 1,
+      "explanation": "The module explains Mosca's Theorem: 'If X + Y > Z → Migrate urgently' where X=migration time, Y=data security lifetime, Z=time until quantum computers."
+    },
+    {
+      "id": "q3",
+      "question": "Which NIST post-quantum cryptography algorithm is used for key encapsulation?",
+      "options": ["ML-DSA (Dilithium)", "SLH-DSA (SPHINCS+)", "ML-KEM (Kyber)", "AES-256-GCM"],
+      "correct": 2,
+      "explanation": "The module lists 'ML-KEM (Kyber): Key encapsulation, Lattice-based' as one of the NIST PQC standards released August 2024."
+    },
+    {
+      "id": "q4",
+      "question": "What is the key difference between an IDS and an IPS?",
+      "options": ["IDS is hardware, IPS is software", "IDS monitors and alerts; IPS detects AND blocks intrusions in real-time", "IDS is for networks, IPS is for hosts", "IDS is newer technology than IPS"],
+      "correct": 1,
+      "explanation": "The module defines IPS as detecting 'AND blocks intrusions in real-time' with 'Inline deployment—traffic flows through the IPS.'"
+    },
+    {
+      "id": "q5",
+      "question": "What are the five tenets of Zero Trust Architecture according to NIST SP 800-207?",
+      "options": ["Encrypt, Monitor, Patch, Test, Report", "All resources accessed securely, Least privilege, Assume breach, Dynamic authentication, Comprehensive monitoring", "Identify, Protect, Detect, Respond, Recover", "Prepare, Categorize, Select, Implement, Monitor"],
+      "correct": 1,
+      "explanation": "The module lists NIST SP 800-207's five tenets: all resources accessed securely, least privilege access, assume breach, dynamic authentication, and comprehensive monitoring."
+    },
+    {
+      "id": "q6",
+      "question": "What is the recommended VPN for new deployments in 2026?",
+      "options": ["OpenVPN", "IPsec", "WireGuard", "PPTP"],
+      "correct": 2,
+      "explanation": "The module states: 'Deploy WireGuard for new infrastructure. Use OpenVPN only where TCP fallback or maximum compatibility is required.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which NGFW feature allows it to identify applications regardless of port number?",
+      "options": ["Stateful inspection", "Packet filtering", "Application awareness", "Circuit-level monitoring"],
+      "correct": 2,
+      "explanation": "The module describes NGFW's 'Application awareness — Identifies apps regardless of port (Skype on 443, etc.)' as a key feature."
+    },
+    {
+      "id": "q8",
+      "question": "What detection rate do AI/ML-enhanced IDS systems achieve according to the module?",
+      "options": ["90%+", "95%+", "99%+", "99.9%+"],
+      "correct": 3,
+      "explanation": "The module states that AI/ML in IDS (2026) achieves '99.9%+ detection rates reported.'"
+    },
+    {
+      "id": "q9",
+      "question": "What does the 'harvest now, decrypt later' threat refer to?",
+      "options": ["Collecting passwords through phishing", "Adversaries storing encrypted traffic today to decrypt when quantum computers become available", "Mining cryptocurrency with stolen resources", "Downloading malware for future deployment"],
+      "correct": 1,
+      "explanation": "The module defines 'Harvest now, decrypt later' as 'Adversaries storing encrypted traffic today to decrypt when quantum computers available.'"
+    },
+    {
+      "id": "q10",
+      "question": "Which network segmentation method provides per-workload isolation using software-defined policies?",
+      "options": ["VLANs", "Firewalls", "Micro-segmentation", "Physical separation"],
+      "correct": 2,
+      "explanation": "The module describes the 2026 trend of 'Micro-segmentation—per-workload isolation using software-defined policies' as the latest segmentation approach."
+    }
+  ]
+}

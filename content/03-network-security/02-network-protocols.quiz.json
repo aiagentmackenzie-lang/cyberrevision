@@ -1,0 +1,75 @@
+{
+  "moduleId": "03-network-security/02-network-protocols",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What critical flaw does ARP have according to the module?",
+      "options": ["It uses weak encryption", "It has no authentication — ARP responses are trusted blindly", "It only works on IPv4", "It requires manual configuration"],
+      "correct": 1,
+      "explanation": "The module states ARP's 'Critical Flaw: No authentication. ARP responses are trusted blindly.'"
+    },
+    {
+      "id": "q2",
+      "question": "What is the primary defense against rogue DHCP servers mentioned in the module?",
+      "options": ["Static IP addressing", "DHCP Snooping on switches", "Firewall rules", "MAC address filtering"],
+      "correct": 1,
+      "explanation": "The module lists 'DHCP Snooping on switches' as the defense against Rogue DHCP Server attacks and says 'Enable this on all access switches.'"
+    },
+    {
+      "id": "q3",
+      "question": "What percentage of top 10 million websites support HTTP/3 according to the module?",
+      "options": ["About 15%", "About 25%", "About 34%", "About 50%"],
+      "correct": 2,
+      "explanation": "The module states HTTP/3 adoption in 2026 includes '~34% of top 10 million websites (growing).'"
+    },
+    {
+      "id": "q4",
+      "question": "Why is DNS tunneling effective for data exfiltration?",
+      "options": ["DNS is encrypted by default", "Firewalls often allow DNS (port 53) to any server", "DNS responses are not logged", "DNS has unlimited packet sizes"],
+      "correct": 1,
+      "explanation": "The module explains DNS tunneling works because 'Firewalls often allow DNS (port 53) to any server' and 'Queries can carry data in subdomain labels.'"
+    },
+    {
+      "id": "q5",
+      "question": "What enterprise concern does DoH (DNS over HTTPS) create?",
+      "options": ["It slows down DNS resolution", "It bypasses traditional DNS monitoring and filtering", "It requires expensive certificates", "It only works in Chrome"],
+      "correct": 1,
+      "explanation": "The module warns: 'DoH bypasses traditional DNS monitoring and filtering. You need visibility—either block DoH at the firewall or run your own DoH resolver.'"
+    },
+    {
+      "id": "q6",
+      "question": "What happened in the 2008 Pakistan Telecom BGP incident?",
+      "options": ["A data breach exposed millions of records", "Pakistan Telecom hijacked YouTube's routes causing a global outage", "BGP encryption was broken", "RPKI was first deployed"],
+      "correct": 1,
+      "explanation": "The notable BGP incidents table lists '2008: Pakistan Telecom YouTube hijack' with impact 'Global YouTube outage.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which technology cryptographically verifies BGP route origins?",
+      "options": ["BGPsec", "RPKI (Resource Public Key Infrastructure)", "DNSSEC", "Route filters"],
+      "correct": 1,
+      "explanation": "The module describes 'RPKI (Resource Public Key Infrastructure): Cryptographically verifies route origins' with growing but incomplete adoption."
+    },
+    {
+      "id": "q8",
+      "question": "What key security improvement does TLS 1.3 provide over TLS 1.2?",
+      "options": ["Slower but more secure handshakes", "Mandatory forward secrecy with ephemeral keys only", "Support for MD5 hashing", "Backwards compatibility with SSL 3.0"],
+      "correct": 1,
+      "explanation": "The module highlights TLS 1.3's 'Mandatory forward secrecy — ephemeral keys only' and removal of weak algorithms like MD5 and SHA-1."
+    },
+    {
+      "id": "q9",
+      "question": "What unique security challenge does QUIC's connection migration feature create?",
+      "options": ["It prevents load balancing", "Clients can change IPs mid-connection, challenging IP-based blocking", "It requires additional encryption", "It breaks firewall stateful inspection"],
+      "correct": 1,
+      "explanation": "The module lists 'Connection migration: Clients can change IPs mid-connection (challenges IP-based blocking)' as a QUIC security implication."
+    },
+    {
+      "id": "q10",
+      "question": "What is a Layer 3 Switch according to the module?",
+      "options": ["A switch that only operates at the physical layer", "A hybrid device combining switch speed with routing intelligence", "A firewall with switching capabilities", "A router with MAC address learning"],
+      "correct": 1,
+      "explanation": "The module describes 'Layer 3 Switches: Hybrid devices combining switch speed with routing intelligence. Common in enterprise networks for inter-VLAN routing at wire speed.'"
+    }
+  ]
+}

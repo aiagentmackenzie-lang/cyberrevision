@@ -1,0 +1,75 @@
+{
+  "moduleId": "03-network-security/01-network-fundamentals",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "At which OSI layer does the QUIC protocol operate?",
+      "options": ["Layer 3 (Network)", "Layer 4 (Transport)", "Layer 5 (Session)", "Layer 7 (Application)"],
+      "correct": 1,
+      "explanation": "The module places QUIC alongside TCP and UDP at Layer 4 (Transport) in the OSI model table."
+    },
+    {
+      "id": "q2",
+      "question": "What percentage of web traffic uses HTTP/3 (QUIC) according to the module?",
+      "options": ["10-15%", "20-25%", "35-40%", "50-60%"],
+      "correct": 2,
+      "explanation": "The module states 'QUIC Protocol: HTTP/3 now uses QUIC (UDP-based), replacing TCP for ~35-40% of web traffic.'"
+    },
+    {
+      "id": "q3",
+      "question": "Which RFC 1918 private address block provides approximately 16.7 million addresses?",
+      "options": ["192.168.0.0/16", "172.16.0.0/12", "10.0.0.0/8", "127.0.0.0/8"],
+      "correct": 2,
+      "explanation": "The module shows 10.0.0.0/8 provides '16.7M addresses' and is used by 'Large enterprises.'"
+    },
+    {
+      "id": "q4",
+      "question": "What security risk do 'shadow IPv6 networks' create according to the module?",
+      "options": ["They slow down network performance", "IPv6 traffic bypasses IPv4-only security controls", "They consume excessive bandwidth", "They cause DNS resolution failures"],
+      "correct": 1,
+      "explanation": "The module warns: 'Many organizations monitor IPv4 but ignore IPv6. Result? Shadow IPv6 traffic bypasses security controls.'"
+    },
+    {
+      "id": "q5",
+      "question": "What is the standard subnet size for all IPv6 LANs?",
+      "options": ["/48", "/56", "/64", "/128"],
+      "correct": 2,
+      "explanation": "The module states /64 is the 'Standard LAN subnet — all LANs use this' and notes SLAAC requires /64."
+    },
+    {
+      "id": "q6",
+      "question": "What key change does IPv6 introduce regarding router fragmentation?",
+      "options": ["Routers perform more fragmentation than IPv4", "No router fragmentation — only endpoints fragment", "Fragmentation is eliminated entirely", "Only core routers can fragment"],
+      "correct": 1,
+      "explanation": "The module lists 'No router fragmentation — only endpoints fragment; prevents fragmentation attacks' as a key IPv6 security change."
+    },
+    {
+      "id": "q7",
+      "question": "Which IPv4 header field is described as 'Easily spoofed — never trust this alone'?",
+      "options": ["TTL", "Protocol", "Source IP", "Destination IP"],
+      "correct": 2,
+      "explanation": "The IPv4 header table describes the Source IP (32 bits) as 'Easily spoofed—never trust this alone.'"
+    },
+    {
+      "id": "q8",
+      "question": "What does the 169.254.0.0/16 address range indicate?",
+      "options": ["Loopback address", "APIPA — assigned when DHCP fails", "Private network for large enterprises", "Multicast communication"],
+      "correct": 1,
+      "explanation": "The module identifies 169.254.0.0/16 as 'Link-local: APIPA — when DHCP fails.'"
+    },
+    {
+      "id": "q9",
+      "question": "What is the current global IPv6 adoption rate mentioned in the module?",
+      "options": ["About 20%", "About 30%", "About 44%", "About 60%"],
+      "correct": 2,
+      "explanation": "The module states 'IPv6 Adoption: Hit 44% globally (India, France, Germany >70%).'"
+    },
+    {
+      "id": "q10",
+      "question": "According to the module, what is the current enterprise standard for IPv6 deployment?",
+      "options": ["IPv6-only deployment", "Dual-stack (IPv4 + IPv6)", "IPv4 with 6to4 tunneling", "IPv6 with Teredo tunneling"],
+      "correct": 1,
+      "explanation": "The module states 'Dual-stack (IPv4 + IPv6) is current enterprise standard' and notes that NAT64 replaces deprecated 6to4/Teredo."
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "moduleId": "08-job-prep/04-continuous-learning",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What new certification from the Cloud Security Alliance specifically addresses AI safety?",
+      "options": ["CCSK", "CCAK", "TAISE (Trusted AI Safety Expert)", "CCSP"],
+      "correct": 2,
+      "explanation": "The module lists 'TAISE: Trusted AI Safety Expert (NEW 2026)' from the Cloud Security Alliance."
+    },
+    {
+      "id": "q2",
+      "question": "According to the module, what percentage of job listings already require AI skills?",
+      "options": ["5%", "10%", "20%", "30%"],
+      "correct": 1,
+      "explanation": "The module states: '10% of listings already require AI skills. Get ahead of the curve.'"
+    },
+    {
+      "id": "q3",
+      "question": "When is DEF CON 34 scheduled to take place?",
+      "options": ["March 2026 in San Francisco", "June 2026 in New York", "August 6-9, 2026 in Las Vegas", "October 2026 in Washington DC"],
+      "correct": 2,
+      "explanation": "The conference table lists 'DEF CON 34: August 6-9, 2026, Las Vegas, NV.'"
+    },
+    {
+      "id": "q4",
+      "question": "What is the typical salary range for senior-level cybersecurity professionals (5-8 years)?",
+      "options": ["$90k-$140k", "$130k-$200k", "$180k-$400k+", "$60k-$85k"],
+      "correct": 1,
+      "explanation": "The salary progression table shows 'Senior: 5-8 years: $130k-$200k.'"
+    },
+    {
+      "id": "q5",
+      "question": "What ISC2 initiative offers free CC (Certified in Cybersecurity) training and exam?",
+      "options": ["ISC2 Scholar Program", "One Million Certified in Cybersecurity", "ISC2 Associate Program", "ISC2 Free Learning"],
+      "correct": 1,
+      "explanation": "The module describes the '2026 Initiative: One Million Certified in Cybersecurity — FREE CC training and exam.'"
+    },
+    {
+      "id": "q6",
+      "question": "What career advice does the module give about specialization versus generalization?",
+      "options": ["Stay a generalist throughout your career", "Generalists get jobs; specialists get paid — pick a domain and own it", "Specialization limits your options", "Only specialize after 10 years"],
+      "correct": 1,
+      "explanation": "The module states: 'Specialize. Generalists get jobs; specialists get paid. Pick a domain and own it.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which SANS course covers Applied Data Science & AI/ML for Cybersecurity?",
+      "options": ["SEC401 (GSEC)", "SEC504 (GCIH)", "SEC595 (GMLE)", "SEC560 (GPEN)"],
+      "correct": 2,
+      "explanation": "The module lists 'GMLE: Machine Learning Engineer' mapped to 'SANS SEC595' and separately mentions 'SANS SEC595 (Applied Data Science & AI/ML for Cybersecurity)' under AI Security."
+    },
+    {
+      "id": "q8",
+      "question": "What does the module recommend as the first specialization step in months 4-12?",
+      "options": ["Get CISSP immediately", "Choose a path: Cloud, Blue Team, AI Security, or GRC", "Start a cybersecurity company", "Apply for executive roles"],
+      "correct": 1,
+      "explanation": "The Specialization phase (Months 4-12) starts with: 'Choose path: Cloud, Blue Team, AI Security, or GRC.'"
+    },
+    {
+      "id": "q9",
+      "question": "What does the module list as a benefit of attending BSides events?",
+      "options": ["Free certifications", "Networking with peers, learning latest techniques, meeting hiring managers", "Guaranteed job placement", "Access to classified information"],
+      "correct": 1,
+      "explanation": "Benefits of attending conferences include: 'Network with peers, Learn latest techniques, Meet hiring managers, Present your research (career accelerator).'"
+    },
+    {
+      "id": "q10",
+      "question": "What career path does the module show leading from SOC Analyst to the executive level?",
+      "options": ["SOC Analyst → Pen Tester → CISO", "SOC Analyst → Senior SOC Analyst → SOC Manager → CISO", "SOC Analyst → GRC Analyst → Risk Officer", "SOC Analyst → Cloud Engineer → CTO"],
+      "correct": 1,
+      "explanation": "The career progression diagram shows: 'SOC Analyst (1-2 years) → Senior SOC Analyst (3-5) → SOC Manager (5-8 years) → CISO (10+ years).'"
+    }
+  ]
+}

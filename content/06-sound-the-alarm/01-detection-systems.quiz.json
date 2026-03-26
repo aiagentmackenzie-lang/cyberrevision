@@ -1,0 +1,75 @@
+{
+  "moduleId": "06-sound-the-alarm/01-detection-systems",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What percentage of security teams ignore critical alerts due to volume according to the module?",
+      "options": ["30%", "45%", "60%", "75%"],
+      "correct": 2,
+      "explanation": "The module states: '60% of security teams ignore critical alerts because they're drowning in noise.'"
+    },
+    {
+      "id": "q2",
+      "question": "Which SIEM platform achieved 100% detection with zero false positives in MITRE Round 7 evaluations?",
+      "options": ["Microsoft Sentinel", "Elastic Security", "Splunk Enterprise Security", "QRadar"],
+      "correct": 2,
+      "explanation": "The module states Splunk achieved '100% detection with zero false positives (MITRE Round 7 validated).'"
+    },
+    {
+      "id": "q3",
+      "question": "What does the term 'Agentic SOC' refer to in 2026 detection platforms?",
+      "options": ["SOC analysts working remotely", "AI agents that act autonomously, not just assist", "Third-party managed SOC services", "Government-operated security operations"],
+      "correct": 1,
+      "explanation": "The 2026 detection trends describe 'Agentic AI: AI agents that act autonomously, not just assist' as a key trend in SOC platforms."
+    },
+    {
+      "id": "q4",
+      "question": "What key advantage does Zeek have over active IDS/IPS tools?",
+      "options": ["It can block attacks in real-time", "It provides high-fidelity transaction logs through passive traffic analysis", "It uses less network bandwidth", "It requires no configuration"],
+      "correct": 1,
+      "explanation": "The module describes Zeek as 'not an active defense—it's passive traffic analysis' that provides 'High-fidelity transaction logs.'"
+    },
+    {
+      "id": "q5",
+      "question": "How many pre-built integrations does Cortex XSOAR offer?",
+      "options": ["200+", "500+", "900+", "1,500+"],
+      "correct": 2,
+      "explanation": "The module lists Cortex XSOAR's capabilities including '900+ prebuilt integrations' and '90% time savings on incidents.'"
+    },
+    {
+      "id": "q6",
+      "question": "What is the average eCrime breakout time that CrowdStrike detects?",
+      "options": ["5 minutes", "29 minutes", "60 minutes", "4 hours"],
+      "correct": 1,
+      "explanation": "The module states CrowdStrike Falcon detects '29-minute average eCrime breakout time.'"
+    },
+    {
+      "id": "q7",
+      "question": "What capability does MISP (Malware Information Sharing Platform) primarily provide?",
+      "options": ["Endpoint detection and response", "Open-source threat intelligence sharing", "Vulnerability scanning", "Firewall management"],
+      "correct": 1,
+      "explanation": "The module describes MISP as 'Open-source threat intelligence sharing' with capabilities including 'IOC collection, storage, distribution.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which detection lifecycle phase involves red team validation and false positive analysis?",
+      "options": ["Research", "Develop", "Test", "Deploy"],
+      "correct": 2,
+      "explanation": "The Test phase of the detection lifecycle includes 'Red team validation, Synthetic data testing, False positive analysis.'"
+    },
+    {
+      "id": "q9",
+      "question": "What differentiates Suricata from single-threaded alternatives like Snort?",
+      "options": ["It uses Lua scripting only", "It is multi-threaded for better performance", "It only runs on Windows", "It doesn't support IPS mode"],
+      "correct": 1,
+      "explanation": "The module highlights Suricata's 'Multi-threaded — Better performance than single-threaded alternatives' as a key advantage."
+    },
+    {
+      "id": "q10",
+      "question": "What are the two key metrics for measuring detection and response effectiveness?",
+      "options": ["Cost per alert and alerts per day", "MTTD (Mean Time to Detect) and MTTR (Mean Time to Respond)", "False positive rate and true positive rate", "Network latency and throughput"],
+      "correct": 1,
+      "explanation": "The module identifies 'Key Metric: Mean Time to Detect (MTTD) and Mean Time to Respond (MTTR)' as the critical measurements."
+    }
+  ]
+}

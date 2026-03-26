@@ -1,0 +1,75 @@
+{
+  "moduleId": "06-sound-the-alarm/02-incident-response",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How much money do organizations with IR plans save per breach compared to those without?",
+      "options": ["$500,000", "$1.5 million", "$2.66 million", "$4.88 million"],
+      "correct": 2,
+      "explanation": "The module states: 'Organizations with IR plans: Save $2.66 million per breach.'"
+    },
+    {
+      "id": "q2",
+      "question": "What are the phases of the NIST Incident Response Lifecycle in order?",
+      "options": ["Detection, Analysis, Response, Recovery", "Preparation, Detection, Analysis, Containment, Eradication, Recovery, Post-Incident", "Identify, Protect, Detect, Respond, Recover", "Alert, Investigate, Contain, Remediate"],
+      "correct": 1,
+      "explanation": "The module diagrams the lifecycle: Preparation → Detection → Analysis → Containment → Eradication → Recovery → Post-Incident."
+    },
+    {
+      "id": "q3",
+      "question": "What is the first critical step in the ransomware playbook?",
+      "options": ["Pay the ransom", "Notify law enforcement", "Isolate affected systems immediately", "Reimage all computers"],
+      "correct": 2,
+      "explanation": "The ransomware playbook lists step 2 as 'CONTAINMENT → Isolate affected systems immediately' right after detection."
+    },
+    {
+      "id": "q4",
+      "question": "What is the GDPR timeline for notifying regulators after a personal data breach?",
+      "options": ["24 hours", "48 hours", "72 hours", "7 days"],
+      "correct": 2,
+      "explanation": "The breach notification laws table shows 'GDPR (EU): 72 hours to regulator' triggered by 'Personal data breach.'"
+    },
+    {
+      "id": "q5",
+      "question": "Who serves as the overall coordinator with decision authority during incident response?",
+      "options": ["Technical Lead", "Communications Lead", "Legal Counsel", "Incident Commander"],
+      "correct": 3,
+      "explanation": "The war room roles table lists 'Incident Commander: Overall coordination, decision authority.'"
+    },
+    {
+      "id": "q6",
+      "question": "What does the module recommend regarding ransom payment during a ransomware incident?",
+      "options": ["Always pay immediately", "Generally no — do NOT negotiate without legal counsel", "Pay only if backups failed", "Never communicate with attackers"],
+      "correct": 1,
+      "explanation": "The ransomware playbook states 'DECISION → Pay ransom? (Generally no) / Restore from backup?' and 'Do NOT negotiate without legal counsel.'"
+    },
+    {
+      "id": "q7",
+      "question": "How often should tabletop exercises be conducted according to the module?",
+      "options": ["Annually", "Semi-annually", "Quarterly", "Monthly"],
+      "correct": 2,
+      "explanation": "The module states under key takeaways: 'Tabletop exercises build muscle memory. Test quarterly. Find gaps before attackers do.'"
+    },
+    {
+      "id": "q8",
+      "question": "What SEC requirement applies to public companies reporting cybersecurity incidents?",
+      "options": ["24 hours", "72 hours", "4 business days", "30 days"],
+      "correct": 2,
+      "explanation": "The breach notification table shows 'SEC (Public Companies): 4 business days' for 'Material cybersecurity incident.'"
+    },
+    {
+      "id": "q9",
+      "question": "What key post-incident activity does the module emphasize for improving future response?",
+      "options": ["Blame assignment", "Lessons learned — what worked, what didn't", "Staff termination", "System replacement"],
+      "correct": 1,
+      "explanation": "Phase 6 (Post-Incident Activity) focuses on 'Lessons learned: What worked, what didn't' and updating procedures based on experience."
+    },
+    {
+      "id": "q10",
+      "question": "What does the module warn about during the Recovery phase?",
+      "options": ["Recovery is always fast", "Attackers often re-compromise, so monitor closely during recovery", "You should skip recovery and go to post-incident", "Only technical staff should be involved"],
+      "correct": 1,
+      "explanation": "The module warns: 'Attackers often re-compromise. Monitor closely during recovery.'"
+    }
+  ]
+}

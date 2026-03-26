@@ -1,0 +1,75 @@
+{
+  "moduleId": "02-play-it-safe/03-security-controls",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many controls and enhancements does NIST SP 800-53 define for Low-Impact systems?",
+      "options": ["49", "149", "287", "370+"],
+      "correct": 1,
+      "explanation": "The module states Low-Impact Systems have '149 controls and enhancements' as their baseline."
+    },
+    {
+      "id": "q2",
+      "question": "What does SBOM stand for and what is its analogy according to the module?",
+      "options": ["Security Baseline Operating Manual — like a user guide", "Software Bill of Materials — like an ingredient list for food", "System Breach Operations Model — like a fire escape plan", "Security Breach Operations Metric — like a scorecard"],
+      "correct": 1,
+      "explanation": "The module defines SBOM as 'Software Bill of Materials' with the analogy 'Like an ingredient list for food, but for software.'"
+    },
+    {
+      "id": "q3",
+      "question": "Which NIST SP 800-53 control category focuses on policies, procedures, and governance?",
+      "options": ["Technical Controls", "Operational Controls", "Management Controls", "Detective Controls"],
+      "correct": 2,
+      "explanation": "Management Controls focus on 'Policies, procedures, risk management, governance' with examples like PM-1 and RA-1."
+    },
+    {
+      "id": "q4",
+      "question": "What is the current standard for Supply Chain Risk Management according to the module?",
+      "options": ["NIST SP 800-53", "NIST SP 800-207", "NIST SP 800-161 Rev. 1", "NIST SP 800-30"],
+      "correct": 2,
+      "explanation": "The module states 'Current Standard: NIST SP 800-161 Rev. 1 (May 2022)' for C-SCRM."
+    },
+    {
+      "id": "q5",
+      "question": "In the TPRM process, what is a red flag when evaluating a vendor?",
+      "options": ["Vendor shares SOC 2 reports", "Vendor has an incident response plan", "Vendor outsources to fourth parties without your knowledge", "Vendor conducts annual penetration testing"],
+      "correct": 2,
+      "explanation": "The module lists 'Outsourced to fourth parties without your knowledge' as a red flag in Third-Party Risk Management."
+    },
+    {
+      "id": "q6",
+      "question": "What does VEX stand for in the context of software supply chain security?",
+      "options": ["Vulnerability Execution Exchange", "Vendor Exploit Index", "Vulnerability Exploitability eXchange", "Verified Exposure Index"],
+      "correct": 2,
+      "explanation": "The module defines 'VEX (Vulnerability Exploitability eXchange) — attestation that products aren't affected by specific CVEs.'"
+    },
+    {
+      "id": "q7",
+      "question": "What common implementation mistake does the module describe as 'Implemented technically, but not operationally effective'?",
+      "options": ["Scope creep", "Checkbox security", "Documentation gaps", "Assessment shortcuts"],
+      "correct": 1,
+      "explanation": "The module lists 'Checkbox security — Implemented technically, but not operationally effective' as mistake #1."
+    },
+    {
+      "id": "q8",
+      "question": "How does the module contrast traditional access reviews with continuous monitoring?",
+      "options": ["Traditional is weekly; continuous is monthly", "Traditional is quarterly manual review; continuous is automated daily attestation with anomaly alerts", "They are the same approach", "Traditional is automated; continuous is manual"],
+      "correct": 1,
+      "explanation": "The continuous monitoring table shows Access Reviews moving from 'Quarterly manual review' to 'Automated daily attestation with anomaly alerts.'"
+    },
+    {
+      "id": "q9",
+      "question": "Which control enhancement example involves automatically disabling dormant user accounts?",
+      "options": ["AC-2(1): Automated account management", "AC-2(2): Removal of temporary accounts", "AC-2(3): Disable accounts after inactivity", "AC-2(4): Automated audit actions"],
+      "correct": 2,
+      "explanation": "The module lists 'AC-2(3): Disable accounts after inactivity' as an enhancement for the Account Management control."
+    },
+    {
+      "id": "q10",
+      "question": "Which impact level baseline does the module describe as the most common for organizations?",
+      "options": ["Low-Impact", "Moderate-Impact", "High-Impact", "Critical-Impact"],
+      "correct": 1,
+      "explanation": "Moderate-Impact Systems are marked with a star as '(Most Common)' with characteristics including 'serious adverse effects possible.'"
+    }
+  ]
+}

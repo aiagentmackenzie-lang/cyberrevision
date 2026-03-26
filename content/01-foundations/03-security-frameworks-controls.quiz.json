@@ -1,0 +1,75 @@
+{
+  "moduleId": "01-foundations/03-security-frameworks-controls",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "According to the module, what does Zero Trust Architecture replace as a security principle?",
+      "options": ["Defense in Depth", "Trust but verify", "Least privilege", "Risk avoidance"],
+      "correct": 1,
+      "explanation": "The module states the 'Old way: Trust but verify—inside the network = trusted' was replaced by Zero Trust: 'Never trust, always verify.'"
+    },
+    {
+      "id": "q2",
+      "question": "At which NIST CSF 2.0 Tier do most organizations start?",
+      "options": ["Tier 1: Partial", "Tier 2: Risk Informed", "Tier 3: Repeatable", "Tier 4: Adaptive"],
+      "correct": 1,
+      "explanation": "The module states 'Most orgs: Start at Tier 2, aim for Tier 3. Tier 4 is enterprise-grade.'"
+    },
+    {
+      "id": "q3",
+      "question": "Which NIST document defines Zero Trust Architecture principles?",
+      "options": ["NIST SP 800-53", "NIST SP 800-37", "NIST SP 800-207", "NIST CSF 2.0"],
+      "correct": 2,
+      "explanation": "The module lists the 'Core Principles (NIST SP 800-207)' for Zero Trust Architecture."
+    },
+    {
+      "id": "q4",
+      "question": "Which type of security control includes background checks and security awareness training?",
+      "options": ["Technical Controls", "Administrative Controls", "Physical Controls", "Detective Controls"],
+      "correct": 1,
+      "explanation": "The module places background checks and training under Administrative Controls: 'Policies, procedures, human-focused processes.'"
+    },
+    {
+      "id": "q5",
+      "question": "In the Defense in Depth database protection example, what control is applied at the Application layer?",
+      "options": ["Firewall and segmentation", "Server hardening and EDR", "Input validation and parameterized queries", "Encryption at rest and TLS in transit"],
+      "correct": 2,
+      "explanation": "The layered protection example maps Application layer to 'Input validation, parameterized queries.'"
+    },
+    {
+      "id": "q6",
+      "question": "What does UEBA stand for in the context of 2026 emerging AI/ML security trends?",
+      "options": ["Unified Enterprise Breach Analysis", "User and Entity Behavior Analytics", "Universal Endpoint Baseline Assessment", "Unified Event-Based Automation"],
+      "correct": 1,
+      "explanation": "The module lists 'UEBA (User and Entity Behavior Analytics)' under AI/ML in Security Controls as part of Behavioral analytics."
+    },
+    {
+      "id": "q7",
+      "question": "Which control category is designed to alert when a security event happens?",
+      "options": ["Preventive", "Detective", "Corrective", "Deterrent"],
+      "correct": 1,
+      "explanation": "The module defines Detective controls as those that 'Alert when it happens' with examples like SIEM, log analysis, IDS, and anomaly detection."
+    },
+    {
+      "id": "q8",
+      "question": "A small healthcare clinic scenario in the module recommends which detection approach?",
+      "options": ["Full SOC team deployment", "Basic SIEM or managed detection service", "AI-powered autonomous detection", "Manual daily log reviews"],
+      "correct": 1,
+      "explanation": "For the healthcare clinic scenario under DETECT, the module recommends 'Basic SIEM or managed detection service.'"
+    },
+    {
+      "id": "q9",
+      "question": "Which common mistake does the module describe as 'Checking boxes ≠ actual protection'?",
+      "options": ["We bought the tool, we're secure", "Compliance = Security", "Set it and forget it", "We don't have anything worth stealing"],
+      "correct": 1,
+      "explanation": "The module lists the common mistake 'Compliance = Security — Checking boxes ≠ actual protection.'"
+    },
+    {
+      "id": "q10",
+      "question": "What is CSPM used for in the cloud-native security controls landscape?",
+      "options": ["Securing cloud workloads", "Monitoring cloud app usage", "Configuration monitoring", "Managing cloud identities"],
+      "correct": 2,
+      "explanation": "The module lists cloud-native controls including 'CSPM: Configuration monitoring' alongside CASB and CWPP."
+    }
+  ]
+}

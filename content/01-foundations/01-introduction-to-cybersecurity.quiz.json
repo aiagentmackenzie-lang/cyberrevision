@@ -1,0 +1,75 @@
+{
+  "moduleId": "01-foundations/01-introduction-to-cybersecurity",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "According to the module, what is the formula for calculating risk?",
+      "options": ["Threat + Vulnerability + Impact", "Likelihood × Impact", "Vulnerability ÷ Threat", "Impact − Likelihood"],
+      "correct": 1,
+      "explanation": "The module defines Risk as 'Likelihood × Impact' and notes that not all threats are equal—you must prioritize."
+    },
+    {
+      "id": "q2",
+      "question": "Which CISA campaign is mentioned as promoting cybersecurity awareness in 2026?",
+      "options": ["Shield America", "Cyber Safe Now", "Secure Our World", "Digital Defense Initiative"],
+      "correct": 2,
+      "explanation": "The module states that CISA runs the 'Secure Our World' campaign to address the constantly evolving threat landscape."
+    },
+    {
+      "id": "q3",
+      "question": "In the Defense in Depth analogy, what does the 'treasury vault' represent?",
+      "options": ["Firewall", "Access controls", "Monitoring systems", "Encryption"],
+      "correct": 3,
+      "explanation": "The module maps the castle analogy: Moat = Firewall, Walls = Access controls, Guards = Monitoring systems, Treasury vault = Encryption."
+    },
+    {
+      "id": "q4",
+      "question": "According to CISA's 2026 guidance, what is still the #1 attack vector?",
+      "options": ["Ransomware", "Zero-day exploits", "Phishing", "Brute force attacks"],
+      "correct": 2,
+      "explanation": "Under the 'Think Before You Click' pillar, the module states that 'Phishing is still the #1 attack vector.'"
+    },
+    {
+      "id": "q5",
+      "question": "What percentage of automated attacks does MFA block according to the module?",
+      "options": ["95%", "99%", "99.9%", "100%"],
+      "correct": 2,
+      "explanation": "The module states that 'MFA blocks 99.9% of automated attacks' under the four pillars of cyber hygiene."
+    },
+    {
+      "id": "q6",
+      "question": "What is the recommended minimum password length according to the module's cyber hygiene guidance?",
+      "options": ["8 characters", "12 characters", "14 characters", "16 characters"],
+      "correct": 3,
+      "explanation": "The module recommends passwords that are 'Long—minimum 16 characters when possible' as part of CISA's 2026 guidance."
+    },
+    {
+      "id": "q7",
+      "question": "Which term describes code or a technique that leverages a vulnerability?",
+      "options": ["Threat", "Risk", "Exploit", "Vulnerability"],
+      "correct": 2,
+      "explanation": "The Key Terms table defines an Exploit as 'Code/technique that leverages a vulnerability' and notes it is 'The weapon, not the attacker.'"
+    },
+    {
+      "id": "q8",
+      "question": "How many unfilled cybersecurity positions exist globally according to the module?",
+      "options": ["1 million", "2.5 million", "3.5 million", "5 million"],
+      "correct": 2,
+      "explanation": "The module opens by stating there are '3.5 million unfilled positions globally' in cybersecurity."
+    },
+    {
+      "id": "q9",
+      "question": "Which MFA method does the module rank as the best option?",
+      "options": ["SMS codes", "Authenticator apps", "Hardware keys", "Email verification"],
+      "correct": 2,
+      "explanation": "The module ranks MFA methods: 'SMS is okay, authenticator apps are better, hardware keys are best.'"
+    },
+    {
+      "id": "q10",
+      "question": "What does the security mindset encourage professionals to ask when looking at a system?",
+      "options": ["How much does this system cost?", "How would I break into this?", "Who designed this system?", "When was this system last updated?"],
+      "correct": 1,
+      "explanation": "The module describes the security mindset as asking 'How would I break into this?' and states 'Think like an attacker to defend better.'"
+    }
+  ]
+}

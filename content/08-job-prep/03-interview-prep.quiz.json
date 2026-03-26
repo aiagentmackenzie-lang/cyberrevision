@@ -1,0 +1,75 @@
+{
+  "moduleId": "08-job-prep/03-interview-prep",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What does STAR stand for in the behavioral interview method?",
+      "options": ["Strategy, Tactics, Analysis, Results", "Situation, Task, Action, Result", "Skills, Training, Application, Review", "Summary, Timeline, Approach, Response"],
+      "correct": 1,
+      "explanation": "The module defines STAR as: 'S: Situation — Set the context, T: Task — What you needed to accomplish, A: Action — What YOU specifically did, R: Result — Quantifiable outcomes.'"
+    },
+    {
+      "id": "q2",
+      "question": "What does the module advise doing during whiteboard interview sessions?",
+      "options": ["Write code silently", "Think out loud — show your reasoning", "Ask to skip the exercise", "Only provide final answers"],
+      "correct": 1,
+      "explanation": "The module states: 'Think out loud—show your reasoning' and 'Interviewers want to see your reasoning, not just answers.'"
+    },
+    {
+      "id": "q3",
+      "question": "What is the typical duration of a technical cybersecurity interview?",
+      "options": ["30 minutes", "45 minutes", "60-90 minutes", "2-3 hours"],
+      "correct": 2,
+      "explanation": "The typical interview process lists 'Technical Interview (60-90 min): Deep dive on skills, Security team members.'"
+    },
+    {
+      "id": "q4",
+      "question": "What is the first step in responding to a DDoS attack according to the module's sample answer?",
+      "options": ["Block all traffic", "Confirm it's actually a DDoS (not a server capacity issue)", "Contact law enforcement", "Pay for additional bandwidth"],
+      "correct": 1,
+      "explanation": "The DDoS response walkthrough starts with 'Confirm: Verify it's actually a DDoS (not server capacity issue), Analyze traffic patterns.'"
+    },
+    {
+      "id": "q5",
+      "question": "When should you send a thank-you email after an interview?",
+      "options": ["Within 1 hour", "Within 24 hours", "Within 48 hours", "Within 1 week"],
+      "correct": 1,
+      "explanation": "The post-interview best practices state: 'Within 24 hours: Send personalized thank-you email.'"
+    },
+    {
+      "id": "q6",
+      "question": "What interview red flag does the module warn about regarding security team budget?",
+      "options": ["Small security team", "No security team or budget", "Remote security team", "Outsourced security team"],
+      "correct": 1,
+      "explanation": "The Red Flags table lists 'No security team/budget' as a warning sign, contrasted with the green flag of 'Established security program.'"
+    },
+    {
+      "id": "q7",
+      "question": "What salary negotiation tactic does the module recommend regarding certifications?",
+      "options": ["Don't mention certifications", "Security+ can add 5-15% to starting offers", "Only mention CISSP", "Certifications don't affect salary"],
+      "correct": 1,
+      "explanation": "The negotiation tactics table notes: 'Certification Premium: Security+ can add 5-15% to starting offers.'"
+    },
+    {
+      "id": "q8",
+      "question": "How many STAR stories does the module recommend preparing?",
+      "options": ["2-3", "5-10", "15-20", "As many as possible"],
+      "correct": 1,
+      "explanation": "The Top 5 Prep Priorities list: 'Master the STAR Method — Prepare 5-10 stories from your experience.'"
+    },
+    {
+      "id": "q9",
+      "question": "What smart question does the module suggest asking about the security team's tools?",
+      "options": ["How much do you spend on security?", "What tools and technologies does your security team use?", "Do you use the same tools as competitors?", "Are your tools outdated?"],
+      "correct": 1,
+      "explanation": "The module lists 'Security Stack: What tools and technologies does your security team use?' as a smart question that shows expertise."
+    },
+    {
+      "id": "q10",
+      "question": "What does the module say about the relationship between technical interview questions and AI in 2026?",
+      "options": ["AI questions are not asked", "Questions about AI-powered threats and defenses are now expected", "Only AI researchers are asked about AI", "AI questions replace all other technical questions"],
+      "correct": 1,
+      "explanation": "The 2026 interview trends table shows: 'AI in Cybersecurity: Questions on AI-powered threats and defenses' as a current trend."
+    }
+  ]
+}

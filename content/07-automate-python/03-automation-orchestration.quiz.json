@@ -1,0 +1,75 @@
+{
+  "moduleId": "07-automate-python/03-automation-orchestration",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What key characteristic makes Ansible unique compared to other configuration management tools?",
+      "options": ["It uses a GUI interface", "It is agentless — no software needs to be installed on managed hosts", "It only works with cloud infrastructure", "It requires Java Runtime"],
+      "correct": 1,
+      "explanation": "The module describes Ansible as 'Agentless automation for configuration management, application deployment, and orchestration.'"
+    },
+    {
+      "id": "q2",
+      "question": "What does Ansible Vault provide?",
+      "options": ["Backup storage for playbooks", "Encrypted secrets storage", "Version control for configurations", "Network monitoring"],
+      "correct": 1,
+      "explanation": "The Ansible concepts table lists 'Vault: Encrypted secrets storage' as a core component."
+    },
+    {
+      "id": "q3",
+      "question": "What configuration management approach does the module recommend using Pydantic for?",
+      "options": ["YAML parsing only", "Type-safe configuration with validation and environment variable support", "Database connection management", "Network device configuration"],
+      "correct": 1,
+      "explanation": "The module shows Pydantic Settings providing 'Configuration with validation and env var support' including SecretStr for API keys."
+    },
+    {
+      "id": "q4",
+      "question": "What does the module recommend for production scheduling instead of the Python schedule library?",
+      "options": ["Windows Task Scheduler", "System cron", "Docker containers", "Systemd timers only"],
+      "correct": 1,
+      "explanation": "The module states: 'Schedule library for dev/testing, system cron for production. Log everything.'"
+    },
+    {
+      "id": "q5",
+      "question": "What does the complete vulnerability management workflow in the module include as its five steps?",
+      "options": ["Scan, Report, Fix, Verify, Close", "Scan, Enrich with threat intel, Filter critical, Create tickets, Notify", "Detect, Analyze, Contain, Eradicate, Recover", "Plan, Execute, Monitor, Report, Improve"],
+      "correct": 1,
+      "explanation": "The daily_workflow function follows: '1. Scan, 2. Enrich, 3. Filter critical, 4. Create tickets, 5. Notify.'"
+    },
+    {
+      "id": "q6",
+      "question": "What logging handler does the module recommend for SIEM integration?",
+      "options": ["FileHandler", "StreamHandler", "SysLogHandler", "NullHandler"],
+      "correct": 2,
+      "explanation": "The module configures a 'SysLogHandler(address=(\"localhost\", 514))' specifically as a 'Syslog handler (for SIEM integration).'"
+    },
+    {
+      "id": "q7",
+      "question": "What does the Scrapy framework example in the module demonstrate for security use?",
+      "options": ["Penetration testing", "CVE monitoring and security bulletin scraping", "Malware analysis", "Password cracking"],
+      "correct": 1,
+      "explanation": "The module describes Scrapy's 'Security Use Cases: CVE monitoring, security bulletins, threat intelligence' with a CVESpider example."
+    },
+    {
+      "id": "q8",
+      "question": "What does the module emphasize should NEVER be hardcoded in security automation scripts?",
+      "options": ["IP addresses", "Port numbers", "Credentials and API keys", "Log file paths"],
+      "correct": 2,
+      "explanation": "The module states: 'Never hardcode credentials' and demonstrates loading them from environment variables and Pydantic settings."
+    },
+    {
+      "id": "q9",
+      "question": "What does the RotatingFileHandler in the module's logging setup do?",
+      "options": ["Encrypts log files", "Rotates log files when they reach 10MB with 5 backups", "Sends logs to a remote server", "Compresses logs in real-time"],
+      "correct": 1,
+      "explanation": "The module configures 'RotatingFileHandler(\"security.log\", maxBytes=10485760, # 10MB, backupCount=5)' for log rotation."
+    },
+    {
+      "id": "q10",
+      "question": "What does the Ansible handler 'Restart SSH' demonstrate in the security hardening playbook?",
+      "options": ["It runs before any task", "It only runs when notified by a task that made changes", "It runs on every playbook execution", "It runs on a schedule"],
+      "correct": 1,
+      "explanation": "The playbook shows the task uses 'notify: Restart SSH' which triggers the handler only when the SSH config task makes a change."
+    }
+  ]
+}

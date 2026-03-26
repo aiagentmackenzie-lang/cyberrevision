@@ -1,0 +1,75 @@
+{
+  "moduleId": "05-assets-threats-vulnerabilities/01-asset-management",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "How many more IT assets does the average enterprise have than they think?",
+      "options": ["10-15% more", "20-25% more", "30-40% more", "50-60% more"],
+      "correct": 2,
+      "explanation": "The module states 'The average enterprise has 30-40% more IT assets than they think' including shadow IT and unknown devices."
+    },
+    {
+      "id": "q2",
+      "question": "How many cloud services does the average enterprise use, and how many does IT know about?",
+      "options": ["300 in use, IT knows 100", "600 in use, IT knows 200", "900+ in use, IT knows about 300", "1500 in use, IT knows about 500"],
+      "correct": 2,
+      "explanation": "The module states: 'Average enterprise has 900+ cloud services in use; IT knows about 300.'"
+    },
+    {
+      "id": "q3",
+      "question": "What are the six stages of the data lifecycle according to the module?",
+      "options": ["Plan, Build, Test, Deploy, Monitor, Retire", "Create, Store, Use, Share, Archive, Destroy", "Classify, Encrypt, Transfer, Store, Audit, Delete", "Collect, Process, Analyze, Report, Store, Dispose"],
+      "correct": 1,
+      "explanation": "The module shows the six stages as: CREATE → STORE → USE → SHARE → ARCHIVE → DESTROY."
+    },
+    {
+      "id": "q4",
+      "question": "Which data classification level includes trade secrets and M&A data?",
+      "options": ["Public", "Internal", "Confidential", "Restricted"],
+      "correct": 3,
+      "explanation": "The module lists 'Restricted: Highly sensitive' with examples including 'Trade secrets, M&A data, passwords' requiring 'Strict controls, monitoring.'"
+    },
+    {
+      "id": "q5",
+      "question": "What is CSPM primarily used for in cloud security?",
+      "options": ["Encrypting cloud data", "Continuously monitoring cloud configurations for security and compliance", "Managing cloud user identities", "Backing up cloud resources"],
+      "correct": 1,
+      "explanation": "The module defines CSPM (Cloud Security Posture Management) as 'Continuously monitor cloud configurations for security and compliance.'"
+    },
+    {
+      "id": "q6",
+      "question": "What does the module identify as the #1 cloud security risk?",
+      "options": ["Data breaches", "DDoS attacks", "Misconfigurations", "Insider threats"],
+      "correct": 2,
+      "explanation": "The module states: 'Cloud assets need CSPM. Misconfigurations are the #1 cloud security risk.'"
+    },
+    {
+      "id": "q7",
+      "question": "What is the first step in the Shadow IT Management Strategy?",
+      "options": ["Block all unsanctioned apps", "Educate users about policies", "Discover — achieve complete visibility before enforcement", "Assess risk levels"],
+      "correct": 2,
+      "explanation": "The module's Shadow IT Management Strategy starts with: '1. Discover — Complete visibility before enforcement.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which BYOD security component separates work data from personal data on a device?",
+      "options": ["MDM", "MAM", "Containerization", "Conditional Access"],
+      "correct": 2,
+      "explanation": "The module lists 'Containerization: Separate work/personal data' as a key BYOD security framework component."
+    },
+    {
+      "id": "q9",
+      "question": "What is the recommended approach for when to classify data?",
+      "options": ["During annual audits", "When a breach occurs", "At creation, not discovered later", "After data is archived"],
+      "correct": 2,
+      "explanation": "The module emphasizes: 'Classify data at creation. Don't try to classify data you already have—it's too late.'"
+    },
+    {
+      "id": "q10",
+      "question": "Which IoT security step involves isolating IoT devices from critical networks?",
+      "options": ["Discover", "Classify", "Segment", "Monitor"],
+      "correct": 2,
+      "explanation": "Step 4 of the IoT Security Framework is 'Segment — Isolate IoT from critical networks.'"
+    }
+  ]
+}

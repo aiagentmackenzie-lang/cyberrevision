@@ -1,0 +1,75 @@
+{
+  "moduleId": "06-sound-the-alarm/03-forensics-investigation",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What is the first principle of digital forensics according to the module?",
+      "options": ["Document everything", "Maintain integrity", "Never work on original evidence — always work on copies", "Be prepared to testify"],
+      "correct": 2,
+      "explanation": "The module lists the first forensics principle as: '1. Never work on original evidence — Always work on copies.'"
+    },
+    {
+      "id": "q2",
+      "question": "Which Volatility plugin is used to detect injected code in memory?",
+      "options": ["pslist", "netscan", "malfind", "cmdscan"],
+      "correct": 2,
+      "explanation": "The module lists 'malfind — Injected code detection' among the key Volatility plugins for memory forensics."
+    },
+    {
+      "id": "q3",
+      "question": "What happens if the chain of custody is broken?",
+      "options": ["The investigation continues normally", "Evidence becomes inadmissible", "Only digital evidence is affected", "A new investigation must be started"],
+      "correct": 1,
+      "explanation": "The module states: 'Break the chain = Evidence inadmissible' regarding chain of custody."
+    },
+    {
+      "id": "q4",
+      "question": "Which hashing algorithm does the module recommend as the standard for evidence integrity?",
+      "options": ["MD5", "SHA-1", "SHA-256", "CRC32"],
+      "correct": 2,
+      "explanation": "The module lists SHA-256 as 'Recommended standard' while noting MD5 and SHA-1 have possible collisions."
+    },
+    {
+      "id": "q5",
+      "question": "What is the primary AWS data source for API activity logging in cloud forensics?",
+      "options": ["VPC Flow Logs", "CloudWatch Logs", "CloudTrail", "S3 Access Logs"],
+      "correct": 2,
+      "explanation": "The module lists 'CloudTrail — API activity logs' as the first key data source for AWS forensics."
+    },
+    {
+      "id": "q6",
+      "question": "Why should memory be captured before powering off a system during forensics?",
+      "options": ["Memory is faster to analyze", "Volatile data disappears when power is lost, including running processes and decryption keys", "Memory is easier to hash", "It is required by law"],
+      "correct": 1,
+      "explanation": "The module states 'Volatile data disappears when power is lost: Running processes, Network connections, Decryption keys, Malware in memory.'"
+    },
+    {
+      "id": "q7",
+      "question": "Which anti-forensics countermeasure does the module recommend against log deletion?",
+      "options": ["Encrypting all logs", "Centralized logging and WORM storage", "Deleting logs before attackers can", "Using only volatile storage"],
+      "correct": 1,
+      "explanation": "The module's anti-forensics table shows the countermeasure for 'Log deletion' is 'Centralized logging, WORM storage.'"
+    },
+    {
+      "id": "q8",
+      "question": "What tool does the module describe as 'the standard for packet capture and analysis'?",
+      "options": ["NetworkMiner", "Zeek", "Wireshark", "tcpdump"],
+      "correct": 2,
+      "explanation": "The module describes Wireshark as 'The standard for packet capture and analysis' in the Network Forensics section."
+    },
+    {
+      "id": "q9",
+      "question": "What is the purpose of a write blocker in forensics?",
+      "options": ["To speed up disk imaging", "To prevent modification of original evidence", "To encrypt evidence during transport", "To compress forensic images"],
+      "correct": 1,
+      "explanation": "The module states: 'Write Blocking — Purpose: Prevent modification of original evidence' using hardware or software methods."
+    },
+    {
+      "id": "q10",
+      "question": "What forensic tool is described as the GUI frontend for The Sleuth Kit?",
+      "options": ["FTK Imager", "Autopsy", "Volatility", "EnCase"],
+      "correct": 1,
+      "explanation": "The module describes 'Autopsy — GUI frontend for The Sleuth Kit' with features including disk imaging, file recovery, and timeline analysis."
+    }
+  ]
+}

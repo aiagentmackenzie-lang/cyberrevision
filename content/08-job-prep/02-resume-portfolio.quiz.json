@@ -1,0 +1,75 @@
+{
+  "moduleId": "08-job-prep/02-resume-portfolio",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "What percentage of resumes are rejected by ATS before reaching a human recruiter?",
+      "options": ["25%", "50%", "75%", "90%"],
+      "correct": 2,
+      "explanation": "The module states: '75% of resumes are rejected by ATS before reaching a recruiter.'"
+    },
+    {
+      "id": "q2",
+      "question": "How long does a recruiter typically spend reviewing a resume before moving on?",
+      "options": ["3 seconds", "6 seconds", "15 seconds", "30 seconds"],
+      "correct": 1,
+      "explanation": "The module states: 'You have 6 seconds to grab a recruiter's attention before they move on.'"
+    },
+    {
+      "id": "q3",
+      "question": "What does the module recommend including in resume certification listings for ATS optimization?",
+      "options": ["Only the acronym", "Only the full name", "Both full certification names AND acronyms", "Just the issuing organization"],
+      "correct": 2,
+      "explanation": "The ATS-friendly tips say to include 'Full certification names + acronyms' and avoid 'Just acronyms.'"
+    },
+    {
+      "id": "q4",
+      "question": "What percentage of cybersecurity job listings specifically reference AI skills in 2026?",
+      "options": ["5%", "10%", "20%", "30%"],
+      "correct": 1,
+      "explanation": "The module states under 2026 Resume Trends: 'AI Integration: 10% of cybersecurity job listings specifically reference AI skills.'"
+    },
+    {
+      "id": "q5",
+      "question": "Which free web security training platform does the module recommend for portfolio building?",
+      "options": ["Cybrary", "TryHackMe", "PortSwigger Web Security Academy", "SANS Cyber Aces"],
+      "correct": 2,
+      "explanation": "The module lists 'PortSwigger Web Security Academy — https://portswigger.net/web-security (FREE)' under CTF and Practice Platforms."
+    },
+    {
+      "id": "q6",
+      "question": "What does the module say is the predicted job growth rate for cybersecurity (2023-2033)?",
+      "options": ["15%", "22%", "33%", "45%"],
+      "correct": 2,
+      "explanation": "The market data shows 'Job Growth: 33% growth predicted (2023-2033)' with '59,100 additional positions.'"
+    },
+    {
+      "id": "q7",
+      "question": "What free hosting platform does the module recommend for a portfolio website?",
+      "options": ["AWS Free Tier", "Heroku", "GitHub Pages", "Netlify"],
+      "correct": 2,
+      "explanation": "The module recommends 'GitHub Pages (free)' for portfolio hosting with 'HTTPS by default' and 'Jekyll integration for blogs.'"
+    },
+    {
+      "id": "q8",
+      "question": "What should the LinkedIn headline include according to the module?",
+      "options": ["Just your job title", "Cybersecurity + specialization + key credential", "Your contact information", "A motivational quote"],
+      "correct": 1,
+      "explanation": "The module recommends including 'Cybersecurity + specialization + key credential' with the example: 'SOC Analyst | Security+ | Threat Detection & Incident Response.'"
+    },
+    {
+      "id": "q9",
+      "question": "What file format does the module recommend for ATS-friendly resumes?",
+      "options": ["Only .txt files", "PDF or .docx", "HTML files", "Only .pages files"],
+      "correct": 1,
+      "explanation": "The format recommendations include 'File Type: PDF or .docx' while avoiding 'Images, .txt, .pages.'"
+    },
+    {
+      "id": "q10",
+      "question": "Why does the module recommend writing technical blog posts?",
+      "options": ["It is required for certifications", "It demonstrates communication skills and shows deep understanding — teaching equals mastery", "It generates advertising revenue", "It is required by employers"],
+      "correct": 1,
+      "explanation": "The module lists benefits of writing: 'Demonstrates communication skills, Shows deep understanding (teaching = mastery), Creates searchable content recruiters find.'"
+    }
+  ]
+}

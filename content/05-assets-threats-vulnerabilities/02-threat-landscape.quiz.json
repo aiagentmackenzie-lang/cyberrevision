@@ -1,0 +1,75 @@
+{
+  "moduleId": "05-assets-threats-vulnerabilities/02-threat-landscape",
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Which nation-state is described as #1 by volume for cyber operations with aggressive zero-day exploitation?",
+      "options": ["Russia", "China", "Iran", "North Korea"],
+      "correct": 1,
+      "explanation": "The module lists China as '#1 by volume; aggressive zero-day exploitation; edge device targeting' in the nation-state actors table."
+    },
+    {
+      "id": "q2",
+      "question": "What is the primary motivation behind North Korea's cyber operations?",
+      "options": ["Strategic disruption", "Economic espionage", "Financial gain and sanctions evasion", "Regional influence"],
+      "correct": 2,
+      "explanation": "The module states North Korea's focus is 'Financial gain, sanctions evasion' through 'IT worker operations; cryptocurrency theft.'"
+    },
+    {
+      "id": "q3",
+      "question": "What was the SolarWinds SUNBURST attack an example of?",
+      "options": ["Ransomware attack", "Phishing campaign", "Supply chain attack via software updates", "DDoS attack"],
+      "correct": 2,
+      "explanation": "The module lists 'SolarWinds SUNBURST' under Supply Chain Attacks as a 2020 'Software updates' attack vector that compromised '18,000 organizations.'"
+    },
+    {
+      "id": "q4",
+      "question": "How many techniques does MITRE ATT&CK Framework v18 contain?",
+      "options": ["150", "216", "475", "784"],
+      "correct": 1,
+      "explanation": "The module lists the framework statistics: '216 Techniques' along with '475 Sub-techniques' in version 18."
+    },
+    {
+      "id": "q5",
+      "question": "What new MITRE ATT&CK technique (T1677) addresses CI/CD pipeline compromise?",
+      "options": ["Delay Execution", "Selective Exclusion", "Poisoned Pipeline Execution", "Local Storage Discovery"],
+      "correct": 2,
+      "explanation": "The module lists 'Poisoned Pipeline Execution (T1677): Initial Access via CI/CD compromise' as a new technique in v18."
+    },
+    {
+      "id": "q6",
+      "question": "What is the current ransomware model described as 'hybrid warfare' in 2026?",
+      "options": ["Encryption only", "Double extortion (encryption + data theft)", "Encryption + exfiltration + third-party targeting + zero-days", "Data theft without encryption"],
+      "correct": 2,
+      "explanation": "The module's 2026 ransomware evolution shows: 'Hybrid warfare: Encryption + exfiltration + third-party targeting + zero-days.'"
+    },
+    {
+      "id": "q7",
+      "question": "What social engineering technique involves hyperrealistic voice impersonation?",
+      "options": ["Deepfake Video", "Browser Fingerprint Spoofing", "AI Voice Cloning (Vishing)", "Malicious Copy-Paste"],
+      "correct": 2,
+      "explanation": "The module describes 'AI Voice Cloning (Vishing): Hyperrealistic voice impersonation' with the example 'CEO calls CFO to authorize wire transfer.'"
+    },
+    {
+      "id": "q8",
+      "question": "Which ransomware tactic in 2026 involves targeting ESXi and hypervisors?",
+      "options": ["Exploit Zero-Day Vulnerabilities", "Target Virtualization Infrastructure", "Attack Third-Party Providers", "AI-Enhanced Social Engineering"],
+      "correct": 1,
+      "explanation": "The module lists 'Target Virtualization Infrastructure — ESXi, hypervisors (one compromise = hundreds of systems)' as the first current ransomware tactic."
+    },
+    {
+      "id": "q9",
+      "question": "What type of AI attack manipulates enterprise AI systems to bypass security controls?",
+      "options": ["AI-Generated Malware", "Deepfake Content", "Prompt Injection", "AI-Assisted Vulnerability Discovery"],
+      "correct": 2,
+      "explanation": "The module lists 'Prompt Injection' at Critical threat level, described as 'Manipulating enterprise AI systems to bypass security.'"
+    },
+    {
+      "id": "q10",
+      "question": "What structural change in MITRE ATT&CK v18 replaced technique-level detections?",
+      "options": ["Analytics objects", "Detection Strategies", "Data Components", "Threat Intelligence feeds"],
+      "correct": 1,
+      "explanation": "The module notes the major structural change: 'Detection Strategies replaced technique-level detections' in MITRE ATT&CK v18."
+    }
+  ]
+}
