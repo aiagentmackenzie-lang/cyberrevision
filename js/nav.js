@@ -15,6 +15,10 @@ export async function initNav() {
   }
   buildSidebar();
   updateProgressTotal();
+  restoreQuizIndicators(courses);
+  document.addEventListener('quizComplete', (e) => {
+    markModuleDone(e.detail.courseId, e.detail.moduleId);
+  });
   document.addEventListener('route', (e) => {
     updateActiveStates(e.detail.courseId, e.detail.moduleId);
   });
@@ -75,4 +79,21 @@ function updateActiveStates(courseId, moduleId) {
 function updateProgressTotal() {
   const total = courses.reduce((sum, c) => sum + c.modules.length, 0);
   document.getElementById('progress-total').textContent = total;
+}
+
+function markModuleDone(courseId, moduleId) {
+  const btn = document.querySelector(
+    `.module-item[data-course-id="${courseId}"][data-module-id="${moduleId}"]`
+  );
+  if (btn) btn.classList.add('quiz-done');
+}
+
+function restoreQuizIndicators(courses) {
+  courses.forEach(course => {
+    course.modules.forEach(mod => {
+      if (localStorage.getItem(`quiz:${course.id}/${mod.id}`)) {
+        markModuleDone(course.id, mod.id);
+      }
+    });
+  });
 }
