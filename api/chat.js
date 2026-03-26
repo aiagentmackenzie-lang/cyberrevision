@@ -19,6 +19,10 @@ export default async function handler(req, res) {
     return res.status(400).json({ error: 'Invalid request body' });
   }
 
+  if (!body || typeof body !== 'object' || Array.isArray(body)) {
+    return res.status(400).json({ error: 'Invalid request body' });
+  }
+
   const { messages = [], systemPrompt = '', moduleContext = '', endSession = false } = body;
 
   const fullSystem = systemPrompt.replace('{moduleContext}', moduleContext);
@@ -90,7 +94,8 @@ export default async function handler(req, res) {
       }
     }
   } catch (err) {
-    // Stream interrupted — end gracefully
+    // Stream interrupted — signal truncation to client
+    try { res.write('\n[Error: response was cut short]'); } catch {}
   }
 
   res.end();
