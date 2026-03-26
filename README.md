@@ -1,58 +1,146 @@
 # CyberRevision
 
-A no-nonsense revision tool for cybersecurity. Whether you're studying for a cert, switching careers, or just want to solidify your fundamentals, this gets the job done without getting in your way.
+An AI-powered cybersecurity study platform. Built to help anyone in the field—or anyone looking to enter it—study, test their knowledge, and get AI tutoring on critical security concepts.
 
-## Why this exists
+## What This Is
 
-I needed a fast, distraction-free way to revise cybersecurity material. Everything out there was either bloated with sign-up walls and tracking, or buried inside some LMS I didn't want to deal with. So I built this instead.
+CyberRevision is a modern study platform for the Google Cybersecurity Certificate curriculum. It combines structured content, interactive quizzes, and an AI tutor in one clean, fast interface.
 
-It's a static site. No accounts. No analytics. No build step. Open it in a browser and start studying.
+**Key Features:**
+- 📚 **8 Courses, 25 Modules** — Full cybersecurity curriculum coverage
+- 🎯 **AI Tutor (Claude)** — Ask questions about any module, get contextual help
+- 📝 **Socratic Examiner** — AI-driven practice testing with feedback
+- ✅ **MCQ Quiz Engine** — 25 pre-generated question banks with explanations
+- 📊 **Progress Tracking** — Module visit counter and quiz completion checkmarks
+- 🔗 **Direct Linking** — Share links to any module (`#course/module-id`)
 
-## Who it's for
+## Who It's For
 
-Anyone learning cybersecurity: cert students, working professionals brushing up on basics, career switchers getting their feet wet, or self-taught folks who just want a clean way to work through the material systematically.
+- **Students** preparing for cybersecurity certifications
+- **Professionals** brushing up on fundamentals
+- **Career switchers** exploring the security field
+- **Self-learners** building knowledge systematically
 
-## What it covers
+## Curriculum Coverage
 
-8 courses, 25 modules, covering the full security lifecycle:
+### 1. Foundations of Cybersecurity
+- Introduction to Cybersecurity
+- Security Lifecycle
+- Security Frameworks & Controls
 
-**Foundations of Cybersecurity.** Intro concepts, the security lifecycle, frameworks and controls.
+### 2. Play It Safe: Manage Security Risks
+- Security Frameworks
+- Risk Management
+- Security Controls
 
-**Play It Safe: Manage Security Risks.** Deeper dive into frameworks, risk management, and security controls.
+### 3. Connect and Protect: Networks & Network Security
+- Network Fundamentals
+- Network Protocols
+- Network Security
 
-**Connect and Protect: Networks & Network Security.** Network fundamentals, protocols, and how to secure them.
+### 4. Tools of the Trade: Linux & SQL
+- Linux Fundamentals
+- Linux Security
+- SQL for Security
 
-**Tools of the Trade: Linux & SQL.** Linux basics and security, plus SQL for security work.
+### 5. Assets, Threats, and Vulnerabilities
+- Asset Management
+- Threat Landscape
+- Vulnerability Management
 
-**Assets, Threats, and Vulnerabilities.** Asset management, the threat landscape, vulnerability management.
+### 6. Sound the Alarm: Detection & Response
+- Detection Systems
+- Incident Response
+- Forensics & Investigation
 
-**Sound the Alarm: Detection & Response.** Detection systems, incident response, forensics and investigation.
+### 7. Automate Cybersecurity Tasks with Python
+- Python Fundamentals
+- Security Scripting
+- Automation & Orchestration
 
-**Automate Cybersecurity Tasks with Python.** Python fundamentals, writing security scripts, automation and orchestration.
+### 8. Put It to Work: Prepare for Cybersecurity Jobs
+- Job Search Strategy
+- Resume & Portfolio
+- Interview Prep
+- Continuous Learning
 
-**Put It to Work: Prepare for Cybersecurity Jobs.** Job search strategy, resume and portfolio building, interview prep, and how to keep learning after you land the role.
+## Technical Stack
 
-## Tech stack
+| Layer | Technology |
+|-------|------------|
+| **Build Tool** | Vite |
+| **Frontend** | Vanilla HTML5, CSS (modular), ES modules |
+| **Rendering** | Marked.js for Markdown |
+| **Security** | DOMPurify for sanitization |
+| **AI Backend** | Vercel Serverless Functions (Node.js) |
+| **AI Model** | Claude (Anthropic API) |
+| **Fonts** | Inter + JetBrains Mono (Google Fonts) |
 
-Plain HTML5, vanilla CSS (split into modular files for nav, content, and main styles), and vanilla JavaScript using ES modules for routing, navigation, and markdown rendering. Marked.js handles the Markdown parsing, DOMPurify sanitizes it, and the fonts are Inter + JetBrains Mono pulled from Google Fonts.
+## Design
 
-No frameworks. No bundlers. Nothing to install.
+- **Dark theme** — Optimized for long study sessions
+- **Split-pane layout** — Persistent navigation + content area
+- **Hash-based routing** — Direct linking to any module
+- **Responsive grid** — Adapts to screen size
+- **Progress tracking** — Visited modules + quiz completions
 
-## Design decisions
+## Development
 
-Dark theme, because if you're going to stare at study material for hours, your eyes shouldn't pay the price. The layout is a split-pane setup with persistent navigation on the left and content on the right. Routing is hash-based so you can link directly to any module. The grid is responsive, and there's a simple visited-modules counter so you can see where you've been.
+```bash
+# Install dependencies
+npm install
 
-## Getting started
+# Start dev server
+npm run dev
 
-Clone the repo (or just download it), open `index.html` in any modern browser, and start navigating through the sidebar. That's it. Works offline once loaded.
+# Build for production
+npm run build
+```
 
-## The thinking behind it
+## Deployment
 
-Study tools should disappear. You should be thinking about security concepts, not fighting the interface. So: no bloat, clean typography, keyboard navigation, screen-reader support, and it runs anywhere you have a browser.
+### Vercel (Recommended)
 
-## Contributing
+```bash
+# Install Vercel CLI
+npm i -g vercel
 
-Spotted a mistake? Want to improve something? PRs are welcome.
+# Deploy
+vercel --prod
+```
+
+**Required Environment Variable:**
+- `CLAUDE_API_KEY` — Your Anthropic API key
+
+Set this in your Vercel project dashboard: **Settings → Environment Variables**
+
+## AI Features
+
+### Ask Claude (Tutor Mode)
+Ask questions about any module's content. The AI stays contextually grounded in the module you're viewing and won't reveal quiz answers.
+
+### Test Me (Examiner Mode)
+A Socratic examiner that tests your understanding with follow-up questions. Includes "End Session" to get a performance summary.
+
+Both features stream responses in real-time for a responsive experience.
+
+## Quiz System
+
+Each module has a dedicated quiz bank (25 total):
+- Multiple choice questions
+- Immediate feedback with explanations
+- Score tracking with localStorage persistence
+- "Try Again" option for review
+
+## Philosophy
+
+Study tools should get out of the way. This site prioritizes:
+
+- **Speed:** Vite-optimized builds, no bloat
+- **Focus:** Clean typography, minimal distractions
+- **Accessibility:** Keyboard-navigable, screen-reader friendly
+- **AI Integration:** Helpful, not intrusive
+- **Portability:** Runs anywhere with a browser
 
 ## License
 
@@ -60,4 +148,4 @@ Proprietary. All rights reserved.
 
 ---
 
-*Built during the Google Cybersecurity Certificate grind.*
+*Built while studying for the Google Cybersecurity Certificate.*
